@@ -23,11 +23,11 @@ function wrap(el, wrapper,placeholder) {
 
 function initFloatLabelEle(node) {
   
-  if (!node.parentNode.classList.contains('floating-label')) {
+  if (!node.parentNode.classList.contains('floating-label_field')) {
     var placeholder = node.getAttribute('placeholder');
     var wrapper = document.createElement('div');
     node.setAttribute("placeholder", "")
-    wrapper.className = "floating-label";
+    wrapper.className = "floating-label_field";
     wrap(node, wrapper,placeholder);  
     
     updateFloatLabel(node);
@@ -63,14 +63,14 @@ function initFloatLabelEle(node) {
   //     console.log('event');
   //   //node.addEventListener("select2:close", function (e) {
   //     var value = $(this).val()
-  //     var father = $(this).parents('.floating-label')
+  //     var father = $(this).parents('.floating-label_field')
   //     if(value == ''){
   //       father.removeClass('active');
   //     }
   //   });
   //   $(node).on('select2:open', function (e) {
   //   //node.addEventListener("select2:open", function (e) {
-  //     var father = $(this).parents('.floating-label')
+  //     var father = $(this).parents('.floating-label_field')
   //     if(!father.hasClass('active'))
   //       father.addClass('active');
   //   });
@@ -79,7 +79,8 @@ function initFloatLabelEle(node) {
   
   ///floating label for select--field
   
-  if (node.classList.contains('select--field')) {
+  //if (node.classList.contains('select--field')) {
+  if (typeof node.tagName != 'undefined' && node.tagName.toLowerCase() == 'cocreate-select'){
     node.addEventListener('open', function(e) {
       let parent = this.parentNode;
       parent.classList.add('active');
@@ -106,7 +107,7 @@ function initFloatLabelEle(node) {
 
 
 function updateFloatLabel(node, value) {
-  if (node.classList.contains('floating-label_field') && node.parentNode.classList.contains('floating-label')) {
+  if (node.classList.contains('floating-label') && node.parentNode.classList.contains('floating-label_field')) {
     
     if (node.value) {
       node.classList.add("text_color");
@@ -132,7 +133,30 @@ function setValue(id,value){
 	node.dispatchEvent(event);
 }
 
-var nodes = document.querySelectorAll('.floating-label_field');
+var nodes = document.querySelectorAll('.floating-label');
 for (var i=0; i < nodes.length; i++) {
   initFloatLabelEle(nodes[i]);
 }
+
+function initFloatingLabel(container) {
+  let mainContainer = container || document;
+  if (!mainContainer.querySelectorAll) {
+    return;
+  }
+  let elements = mainContainer.querySelectorAll('.floating-label');
+  
+  if (elements.length == 0 && mainContainer.classList.contains('floating-label')) {
+    elements = [mainContainer];
+  }
+  
+  elements.forEach(el => {
+    initFloatLabelEle(el);
+  })
+}
+
+CoCreateInit.register('CoCreateFloatLabel', window, initFloatingLabel);
+
+// CoCreateInit.register_old('.floating-label',  initFloatLabelEle);
+
+// CoCreateObserver.register('.floating-label',initFloatLabelEle);
+
