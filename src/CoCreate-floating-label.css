@@ -36,6 +36,7 @@ input.floating-label.text_color[type="date"],input.floating-label.text_color[typ
 
 input[type='color'] {
   height: 39px;
+  padding: 5px 6px 5px 6px!important;
 }
 
 .floating-label_outline {

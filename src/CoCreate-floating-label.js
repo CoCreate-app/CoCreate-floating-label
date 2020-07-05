@@ -150,6 +150,7 @@ function initFloatingLabel(container) {
   }
   
   elements.forEach(el => {
+    // console.log(" Init FloatingLabel ",el)
     initFloatLabelEle(el);
   })
 }
