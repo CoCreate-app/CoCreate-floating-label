@@ -80,7 +80,7 @@ function initFloatLabelEle(node) {
   ///floating label for select--field
   
   //if (node.classList.contains('select--field')) {
-  if (typeof node.tagName != 'undefined' && node.tagName.toLowerCase() == 'cocreate-select'){
+  if ((typeof node.tagName != 'undefined' && node.tagName.toLowerCase() == 'cocreate-select') || node.classList.contains('select--field')){
     node.addEventListener('open', function(e) {
       let parent = this.parentNode;
       parent.classList.add('active');
