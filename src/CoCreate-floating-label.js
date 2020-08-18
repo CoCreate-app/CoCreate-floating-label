@@ -133,10 +133,10 @@ function setValue(id,value){
 	node.dispatchEvent(event);
 }
 
-var nodes = document.querySelectorAll('.floating-label');
-for (var i=0; i < nodes.length; i++) {
-  initFloatLabelEle(nodes[i]);
-}
+// var nodes = document.querySelectorAll('.floating-label');
+// for (var i=0; i < nodes.length; i++) {
+//   initFloatLabelEle(nodes[i]);
+// }
 
 function initFloatingLabel(container) {
   let mainContainer = container || document;
@@ -145,7 +145,7 @@ function initFloatingLabel(container) {
   }
   let elements = mainContainer.querySelectorAll('.floating-label');
   
-  if (elements.length == 0 && mainContainer.classList.contains('floating-label')) {
+  if (elements.length == 0 && mainContainer.classList && mainContainer.classList.contains('floating-label')) {
     elements = [mainContainer];
   }
   
@@ -154,7 +154,8 @@ function initFloatingLabel(container) {
     initFloatLabelEle(el);
   })
 }
-
+initFloatingLabel(document)
+ 
 CoCreateInit.register('CoCreateFloatLabel', window, initFloatingLabel);
 
 // CoCreateInit.register_old('.floating-label',  initFloatLabelEle);
