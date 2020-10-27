@@ -14,7 +14,7 @@
   font-size: 16px;
   line-height: 1.5;
   color: rgba(0, 0, 0, 0.87);
-  z-index: 5;
+  /*z-index: 5;*/
 }
 
 cocreate-select.floating-label, .select--field.floating-label {
