@@ -42,6 +42,7 @@ const CoCreateFloatLabel = {
     if (node.classList.contains('floating-label') && node.parentNode.classList.contains('floating-label_field')) {
       const parent = node.parentNode;
       const active = node.hasAttribute('active')
+      console.log(node,active)
       if (node.value || value || active) {
         node.classList.add("text_color");
         parent.classList.add('active');
@@ -106,8 +107,8 @@ const CoCreateFloatLabel = {
     node.addEventListener('CoCreateSelect-close', function(e) {
       if (!CoCreateSelect) return;
       let value = CoCreateSelect.getValue(this);
-      const active = this.hasAttribute('active')
-      if (!active && (!value || value.length == 0)) this.parentNode.classList.remove('active');
+      
+      if (!value || value.length == 0) this.parentNode.classList.remove('active');
     })
     
     node.addEventListener('selectedValue', function(e) {
