@@ -1,5 +1,5 @@
 {
-  "name": "CoCreate-floating-label",
+  "name": "@CoCreate/floating-label",
   "version": "1.0.0",
   "description": "CoCreate-floating-labels.js ",
   "main": "app.js",
@@ -11,8 +11,8 @@
     "type": "git",
     "url": "git+https://github.com/CoCreate-app/CoCreate-floating-labels.js.git"
   },
-  "author": "Frank Pagan",
-  "license": "ISC",
+  "author": "CoCreate LLC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/CoCreate-app/CoCreate-floating-labels.js/issues"
   },

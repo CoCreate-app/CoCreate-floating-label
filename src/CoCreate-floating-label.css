@@ -6,7 +6,7 @@
 
 .floating-label_field .floating-label, input.floating-label  {
   display: flex;
-  width:100%!important;
+  width:100%;
   padding: 8px 14px 8px 14px;
   border: none !important;
   outline: none !important;
@@ -26,6 +26,7 @@ cocreate-select[multiple].floating-label, .select--field[multiple].floating-labe
 
 input.floating-label[type="date"],input.floating-label[type="time"],input.floating-label[type="datetime-local"],input.floating-label[type="week"],input.floating-label[type="month"],select.floating-label{
     color: transparent;
+    height:40px;
 }
 input.floating-label.text_color[type="date"],input.floating-label.text_color[type="time"],input.floating-label.text_color[type="datetime-local"],input.floating-label.text_color[type="week"],input.floating-label.text_color[type="month"],select.floating-label.text_color{
  color: rgba(0, 0, 0, 0.87); 
