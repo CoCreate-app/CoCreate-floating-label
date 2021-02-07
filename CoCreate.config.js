@@ -9,7 +9,7 @@ module.exports = {
     sources: [{
             path: "./docs/index.html",
             collection: "files",
-            document_id: "",
+            document_id: "601f41106b402c72efc07e05",
             key: "html",
             data:{
                 name: "floating-label Doc",
@@ -19,10 +19,10 @@ module.exports = {
    
     crud: [{
             collection: "routes",
-            document_id: "",
+            document_id: "601f41106b402c72efc07e04",
             data:{
                 collection: "files",
-                document_id: "",
+                document_id: "601f41106b402c72efc07e05",
                 name: "html",
                 domains: ["cocreate.app", "server.cocreate.app", "ws.cocreate.app"],
                 route: "/docs/floating-label",
