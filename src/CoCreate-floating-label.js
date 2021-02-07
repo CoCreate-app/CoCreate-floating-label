@@ -28,7 +28,7 @@ const CoCreateFloatingLabel = {
   },
 
   render: function(node) {
-    if (!node.parentNode.classList.contains(this.className)) {
+    if (node.parentNode && !node.parentNode.classList.contains(this.className)) {
       const placeholder = node.getAttribute('placeholder');
       const wrapper = document.createElement('div');
       node.setAttribute("placeholder", "")
@@ -105,15 +105,15 @@ const CoCreateFloatingLabel = {
     })
 
     node.addEventListener('CoCreateSelect-close', function(e) {
-      if (!CoCreateSelect) return;
-      let value = CoCreateSelect.getValue(this);
+      if (!CoCreate.select) return;
+      let value = CoCreate.select.getValue(this);
       const active = this.hasAttribute('active')
       if (!active && (!value || value.length == 0)) this.parentNode.classList.remove('active');
     })
 
     node.addEventListener('selectedValue', function(e) {
-      if (!CoCreateSelect) return;
-      let value = CoCreateSelect.getValue(this);
+      if (!CoCreate.select) return;
+      let value = CoCreate.select.getValue(this);
 
       if (value && value.length > 0) {
         this.parentNode.classList.add('active');
@@ -128,11 +128,11 @@ const CoCreateFloatingLabel = {
 
 CoCreateFloatingLabel.init();
 
-CoCreateObserver.add({ 
+CoCreate.observer.add({ 
   name: 'CoCreateFloatingLabelInit',
   observe: ['subtree', 'childList'],
   include: '.floating-label',
-  task: function(mutation) {
+  callback: function(mutation) {
     // console.log(mutation)
     CoCreateFloatingLabel.initElement(mutation.target)
   }
