@@ -128,7 +128,7 @@ const CoCreateFloatingLabel = {
 
 CoCreateFloatingLabel.init();
 
-CoCreate.observer.add({ 
+CoCreate.observer.init({ 
   name: 'CoCreateFloatingLabelInit',
   observe: ['subtree', 'childList'],
   include: '.floating-label',
