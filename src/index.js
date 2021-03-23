@@ -1,5 +1,9 @@
 // 'use restrict'
 
+import observer from '../../CoCreate-observer/src'
+import CoCreateSelect from  '../../CoCreate-select/src'
+import './CoCreate-floating-label.css';
+
 const CoCreateFloatingLabel = {
   className: 'floating-label_field',
 
@@ -105,15 +109,15 @@ const CoCreateFloatingLabel = {
     })
 
     node.addEventListener('CoCreateSelect-close', function(e) {
-      if (!CoCreate.select) return;
-      let value = CoCreate.select.getValue(this);
+      if (!CoCreateSelect) return;
+      let value = CoCreateSelect.getValue(this);
       const active = this.hasAttribute('active')
       if (!active && (!value || value.length == 0)) this.parentNode.classList.remove('active');
     })
 
     node.addEventListener('selectedValue', function(e) {
-      if (!CoCreate.select) return;
-      let value = CoCreate.select.getValue(this);
+      if (!CoCreateSelect) return;
+      let value = CoCreateSelect.getValue(this);
 
       if (value && value.length > 0) {
         this.parentNode.classList.add('active');
@@ -128,7 +132,7 @@ const CoCreateFloatingLabel = {
 
 CoCreateFloatingLabel.init();
 
-CoCreate.observer.init({ 
+observer.init({ 
   name: 'CoCreateFloatingLabelInit',
   observe: ['subtree', 'childList'],
   include: '.floating-label',
@@ -137,5 +141,6 @@ CoCreate.observer.init({
     CoCreateFloatingLabel.initElement(mutation.target)
   }
 })
+
 
 export default CoCreateFloatingLabel;
