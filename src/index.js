@@ -1,7 +1,7 @@
 // 'use restrict'
 
-import observer from '../../CoCreate-observer/src'
-import CoCreateSelect from  '../../CoCreate-select/src'
+import observer from '@cocreate/observer'
+import CoCreateSelect from '@cocreate/select'
 import './CoCreate-floating-label.css';
 
 const CoCreateFloatingLabel = {
