@@ -9,7 +9,7 @@ A simple floating-label component in vanilla javascript. Easily configured using
 
 ![CoCreate-floating-label](https://cdn.cocreate.app/docs/CoCreate-floating-label.gif)
 
-## [Docs & Demo](https://cocreate.app/docs/clone)
+## [Docs & Demo](https://cocreate.app/docs/floating-label)
 
 For a complete guide and working demo refer to the [doumentation](https://cocreate.app/docs/floating-label)
 
