@@ -1,7 +1,6 @@
 // 'use restrict'
 
 import observer from '@cocreate/observer'
-import CoCreateSelect from '@cocreate/select'
 import './CoCreate-floating-label.css';
 
 const CoCreateFloatingLabel = {
@@ -101,31 +100,6 @@ const CoCreateFloatingLabel = {
       }
     });
 
-
-
-    node.addEventListener('CoCreateSelect-open', function(e) {
-      let parent = this.parentNode;
-      parent.classList.add('active');
-    })
-
-    node.addEventListener('CoCreateSelect-close', function(e) {
-      if (!CoCreateSelect) return;
-      let value = CoCreateSelect.getValue(this);
-      const active = this.hasAttribute('active')
-      if (!active && (!value || value.length == 0)) this.parentNode.classList.remove('active');
-    })
-
-    node.addEventListener('selectedValue', function(e) {
-      if (!CoCreateSelect) return;
-      let value = CoCreateSelect.getValue(this);
-
-      if (value && value.length > 0) {
-        this.parentNode.classList.add('active');
-      }
-      else {
-        this.parentNode.classList.remove('active');
-      }
-    })
   },
 
 }
