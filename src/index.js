@@ -1,7 +1,7 @@
 // 'use restrict'
 
 import observer from '@cocreate/observer'
-import './CoCreate-floating-label.css';
+import './index.css';
 
 const CoCreateFloatingLabel = {
   className: 'floating-label_field',
