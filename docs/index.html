@@ -4,16 +4,17 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>CoCreate-floating-label Documentation | CoCreateJS </title>
-        <link rel="icon" type="image/png" sizes="32x32" href="https://cocreate.app/images/favicon.ico">
         <meta name="description" content="A simple HTML5 and pure javascript component. Easy configuration using data-attributes and highly styleable." />
         <meta name="keywords" content="helper classes, utility classes, css framework, css library, inline style classes" />
         <meta name="robots" content="index,follow" />
         
-        <!-- CoCreate CSS -->
+        <title>CoCreate-floating-label Documentation | CoCreateJS </title>
+        
+        <link rel="icon" type="image/png" sizes="32x32" href="https://cocreate.app/images/favicon.ico">
+        
+        <!-- CoCreate CSS CDN -->
         <link rel="stylesheet" href="https://cdn.cocreate.app/latest/CoCreate.min.css" type="text/css"/>
     </head>
-
     <body>
         <div data-collection="" data-document_id="" name="" id="cocreate-floating-label">
             <div class="display:flex flex-wrap:wrap justify-content:space-between margin:10px">
@@ -58,6 +59,32 @@
                         <p class="padding:10px_0px">This is floating-label reference</p>
                         <p class="padding:10px_0px">This is floating-label reference</p>
                     </div>
+                    
+                    <div id="floating-label-reference" class="margin-top:80px border-bottom:1px_solid_lightgrey">
+                        <span class="display:flex align-items:center" data-hover="display:block!important" data-hover_target='[href="#floating-label-reference"]'>
+                            <h2 class="padding:5px_0px">Reference</h2>
+                            <a class="margin-left:10px display:none" href="#floating-label-reference"><i class="fas fa-link"></i></a>
+                        </span>
+                    </div>
+                    <div class="">
+                        <p class="padding:10px_0px">You only need to add "floating-label" into class list to use cocreate-floating-label.</p>
+                
+                        <div class="flex-grow:1 min-width:300px width:100%">
+                            <pre>
+                        <code class="language-html">
+                        &lt;input type="text" 
+                                data-collection="module_activities" 
+                                data-document_id="5edda7608d5c7a7d656edecd" 
+                                name="text" 
+                                placeholder="Text" 
+                                class="floating-label"&gt;
+                        </code>
+                            </pre>
+                        </div>
+                        <p class="padding:10px_0px">This is xxxxx reference</p>
+                        <p class="padding:10px_0px">This is xxxxx reference</p>
+                    </div>
+                    
                     <div id="floating-label-attributes" class="margin-top:80px border-bottom:1px_solid_lightgrey">
                         <span class="display:flex align-items:center" data-hover="display:block!important" data-hover_target='[href="#floating-label-attributes"]'>
                             <h2 class="padding:5px_0px">Attributes</h2>
@@ -142,7 +169,7 @@
             }
         </script>
     
-        <!--CoCreateJS-->
+        <!--CoCreateJS CDN-->
         <script src="https://cdn.cocreate.app/latest/CoCreate.min.js" ></script>
     </body>
 </html>
