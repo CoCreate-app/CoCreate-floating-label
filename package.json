@@ -1,6 +1,6 @@
 {
   "name": "@cocreate/floating-label",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A simple floating-label component in vanilla javascript. Easily configured using HTML5 data-attributes and/or JavaScript API.",
   "keywords": [
     "floating-label",
