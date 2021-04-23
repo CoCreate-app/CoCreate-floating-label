@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.0.6...v1.0.7) (2021-04-23)
+
+
+### Bug Fixes
+
+* readme and documentation. Removed securitykeys ([6134ed5](https://github.com/CoCreate-app/CoCreate-floating-label/commit/6134ed5897c7e781c52a92847b8bc9747f147de8))
+
 ## [1.0.6](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.0.5...v1.0.6) (2021-04-19)
 
 
