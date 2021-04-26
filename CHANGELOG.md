@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.0.8...v1.0.9) (2021-04-26)
+
+
+### Bug Fixes
+
+* border color change when focus applied ([394d6ea](https://github.com/CoCreate-app/CoCreate-floating-label/commit/394d6eaf1878e62f0d25cb708594e0bd17a4e722))
+
 ## [1.0.8](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.0.7...v1.0.8) (2021-04-26)
 
 
