@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.0.7...v1.0.8) (2021-04-26)
+
+
+### Bug Fixes
+
+* add outline below input and update css to support adding active to input, select, etc which will activate floating label ([d5a72c0](https://github.com/CoCreate-app/CoCreate-floating-label/commit/d5a72c049ec455bfb6449fda6b3d163b78ba5c98))
+
 ## [1.0.7](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.0.6...v1.0.7) (2021-04-23)
 
 
