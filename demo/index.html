@@ -10,46 +10,13 @@
     <title>CoCreate Floating Labels | CoCreateJS</title>
     
     <!-- CoCreate CSS CDN -->
-    <link rel="stylesheet" href="https://cdn.cocreate.app/floating-label/latest/CoCreate-floating-label.min.css" type="text/css"/>
+    <!--<link rel="stylesheet" href="https://cdn.cocreate.app/floating-label/latest/CoCreate-floating-label.min.css" type="text/css"/>-->
     
   </head>
   <body>
   
     <form class="margin:20px" data-collection="module_activities">
       
-      <cocreate-select class="remove-none floating-label text_color" id="data-realtime" placeholder="" data-attribute_sync="data-realtime" active>
-          <input class="search-options" placeholder="Search" data-item_selector=".selectable">
-  
-          <ul class="selectable--list z-index:7" data-search_id="search_01">
-              <li class="selectable margin:0!important padding:0!important height:25px min-height:25px!important" value=""><span class="margin:auto">none</span></li>
-              <li class="selectable" value="true"><span class="margin:auto">true<span></span></span></li>
-              <li class="selectable" value="false"><span class="margin:auto">false<span></span></span></li>
-          </ul>
-      </cocreate-select>
-      
-     <div class="floating-label height:40px" placeholder="Text" active>
-        <input type="text" data-collection="module_activitie" data-document_id="" name="text" placeholder="test">
-            <cocreate-select class="remove-none border:none border-radius:4px padding:0 width:27px min-height:auto!important cursor:pointer" data-attribute="data-style_unit" data-attribute_target="#width">
-                <li class="margin:0!important padding:0!important height:25px min-height:25px!important" value="px" selected><span class="margin:auto">px</span><span class="remove">x</span></li>
-                <ul class="selectable--list z-index:7 width:30px" data-collection="module_activitie" data-document_id="" name="size-unit">
-                    <li class="selectable margin:0!important padding:0!important height:25px min-height:25px!important" value="px"><span class="margin:auto">px</span></li>
-                    <li class="selectable margin:0!important padding:0!important height:25px min-height:25px!important" value="%"><span class="margin:auto">%</span></li>
-                    <li class="selectable margin:0!important padding:0!important height:25px min-height:25px!important" value="vw"><span class="margin:auto">vw</span></li>
-                </ul>
-            </cocreate-select>
-      </div>
-     <div class="floating-label height:40px" placeholder="Text" active>
-        <input type="text" data-collection="module_activitie" data-document_id="" name="text" placeholder="test">
-            <cocreate-select class="remove-none border:none border-radius:4px padding:0 width:27px min-height:auto!important cursor:pointer" data-attribute="data-style_unit" data-attribute_target="#width">
-                <li class="margin:0!important padding:0!important height:25px min-height:25px!important" value="px" selected><span class="margin:auto">px</span><span class="remove">x</span></li>
-                <ul class="selectable--list z-index:7 width:30px" data-collection="module_activitie" data-document_id="" name="size-unit">
-                    <li class="selectable margin:0!important padding:0!important height:25px min-height:25px!important" value="px"><span class="margin:auto">px</span></li>
-                    <li class="selectable margin:0!important padding:0!important height:25px min-height:25px!important" value="%"><span class="margin:auto">%</span></li>
-                    <li class="selectable margin:0!important padding:0!important height:25px min-height:25px!important" value="vw"><span class="margin:auto">vw</span></li>
-                </ul>
-            </cocreate-select>
-      </div>
-        
       <input type="color" 
         data-collection="module_activities" 
         data-document_id="" 
@@ -118,36 +85,6 @@
           <option>3</option>
       </select>
   
-      <div data-collection="test" data-document_id="5e9531b3a762440eed55c2ed"  name="multiple-options" class="select--field sortable floating-label" placeholder="Multiple Options" multiple>
-        <input class="option-search" placeholder="Search">
-        <ul class="selectable--list cocreate-scroll">
-  				<li class="selectable" data-value="value 1">
-  				  <h3 >value 1</h3>
-  				</li>
-  				<li class="selectable" data-value="value 2">
-  				  <h3 >value 2</h3>
-  				</li>
-  				<li class="selectable" data-value="value 3">
-  				  <h3 >value 3</h3>
-  				</li>
-        </ul>
-      </div>
-  
-      <div class="select--field sortable floating-label" name="single-options" data-collection="test" data-document_id="5e8ff00e8c3af32574df80cb" placeholder="Single  Options">
-        <input class="option-search" placeholder="Search">
-        <ul class="selectable--list  cocreate-scroll">
-  				<li class="selectable"  data-value="value 1">
-  				  <h3 >value 1</h3>
-  				</li>
-  				<li class="selectable"  data-value="value 2">
-  				  <h3 >value 2</h3>
-  				</li>
-  				<li class="selectable"  data-value="value 3">
-  				  <h3 >value 3</h3>
-  				</li>
-        </ul>
-      </div>
-  
    	<button class="submitBtn position:fixed bottom:15px right:15px bg-blue grow-hover round"><i class="far fa-save"></i></button>
   
     </form>
@@ -155,13 +92,13 @@
     <script>
       var config = {
         apiKey: 'c2b08663-06e3-440c-ef6f-13978b42883a',
-                organization_Id: '5de0387b12e200ea63204d6c'
+        organization_Id: '5de0387b12e200ea63204d6c'
       }
     </script>
    
     <!--  CoCreat JS CDN  -->
     <script src="https://cdn.cocreate.app/floating-label/latest/CoCreate-floating-label.min.js"></script>
-    
+
   </body>
 </html> 
 
