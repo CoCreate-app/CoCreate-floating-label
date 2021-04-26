@@ -57,7 +57,7 @@ const CoCreateFloatingLabel = {
   },
 
   __wrap: function(el, wrapper, placeholder) {
-    el.parentNode.insertBefore(wrapper, el);
+    el.parentNode.insertBefore( wrapper , el);
     var div1 = document.createElement('div');
     div1.className = "floating-label_outline";
     var div2 = document.createElement('div');
@@ -73,9 +73,13 @@ const CoCreateFloatingLabel = {
     div3.appendChild(label);
     div1.appendChild(div3);
     div1.appendChild(div4);
-
-    wrapper.appendChild(div1);
+   /* console.log("wraper ",wrapper)
+    console.log("el",el)
+    console.log("div1",div1)*/
+   // console.log("Floating ====================")
     wrapper.appendChild(el);
+    wrapper.appendChild(div1);
+    
   },
 
   __initEvents: function(node) {

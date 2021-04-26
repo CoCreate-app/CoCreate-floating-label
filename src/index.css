@@ -44,7 +44,7 @@ input[type='color'] {
   display: flex;
   position: absolute;
   z-index: 6;
-  /*top: 0;*/
+  top: 0;
   /*right: 0;*/
   /*left: 0;*/
   width: 100%;
@@ -98,12 +98,12 @@ input[type='color'] {
 .floating-label:hover ~ .floating-label_outline .floating-label_leading,
 .floating-label:hover ~ .floating-label_outline .floating-label_notch,
 .floating-label:hover ~ .floating-label_outline .floating-label_trailing {
-  border-color: rgba(0, 0, 0, 0.87);
+  border-color: inherit;
 }
 
-.floating-label_field.active .floating-label_leading,
-.floating-label_field.active .floating-label_notch,
-.floating-label_field.active .floating-label_trailing,
+.floating-label_field .active ~ .floating-label_outline .floating-label_leading,
+.floating-label_field .active ~ .floating-label_outline .floating-label_notch,
+.floating-label_field .active ~ .floating-label_outline .floating-label_trailing,
 .floating-label:not(:placeholder-shown) .floating-label_leading,
 .floating-label:not(:placeholder-shown) .floating-label_notch,
 .floating-label:not(:placeholder-shown) .floating-label_trailing,
@@ -129,14 +129,14 @@ input:-webkit-autofill + .floating-label_outline .floating-label_trailing {
 /*  border-color: #2e86c1!important;*/
 /*}*/
 
-.floating-label_field.active .floating-label_notch,
+.floating-label_field .active ~ .floating-label_outline .floating-label_notch,
 .floating-label:not(:placeholder-shown) .floating-label_notch,
 .floating-label:valid ~ .floating-label_outline .floating-label_notch,
 .floating-label:focus ~ .floating-label_outline .floating-label_notch,
 input:-webkit-autofill + .floating-label_outline .floating-label_notch {
   border-top: none;
 }
-.floating-label_field.active .floating-label_label,
+.floating-label_field .active ~ .floating-label_outline .floating-label_label,
 .floating-label:not(:placeholder-shown) .floating-label_label,
 .floating-label:valid ~ .floating-label_outline .floating-label_label,
 .floating-label:focus ~ .floating-label_outline .floating-label_label,
