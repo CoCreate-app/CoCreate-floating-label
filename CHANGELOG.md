@@ -1,3 +1,10 @@
+## [1.0.11](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.0.10...v1.0.11) (2021-04-27)
+
+
+### Bug Fixes
+
+* add host in docs ([bb415b4](https://github.com/CoCreate-app/CoCreate-floating-label/commit/bb415b48b6d26d513563dcc31034f45c1388f198))
+
 ## [1.0.10](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.0.9...v1.0.10) (2021-04-27)
 
 
