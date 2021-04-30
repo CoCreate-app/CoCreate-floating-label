@@ -10,7 +10,7 @@ module.exports = {
             "path": "./docs/index.html",
             "collection": "files",
             "document_id": "601f41106b402c72efc07e05",
-            "key": "html",
+            "key": "src",
             "data":{
                 "name": "floating-label Doc",
                 "domains": ["cocreate.app", "server.cocreate.app", "ws.cocreate.app"],
