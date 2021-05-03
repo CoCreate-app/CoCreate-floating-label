@@ -117,8 +117,12 @@ observer.init({
   callback: function(mutation) {
     // console.log(mutation)
     CoCreateFloatingLabel.initElement(mutation.target)
-  }
+  }  
 })
+
+
+
+
 
 export default CoCreateFloatingLabel;
 
