@@ -24,14 +24,16 @@ cocreate-select[multiple].floating-label, .select--field[multiple].floating-labe
     padding: 2px 2px 8px 2px!important;
 }
 
-input.floating-label[type="date"],input.floating-label[type="time"],input.floating-label[type="datetime-local"],input.floating-label[type="week"],input.floating-label[type="month"],select.floating-label{
+input.floating-label[type="date"],input.floating-label[type="time"],input.floating-label[type="datetime-local"],input.floating-label[type="week"],input.floating-label[type="month"]{
     color: transparent;
     height:40px;
 }
 input.floating-label.text_color[type="date"],input.floating-label.text_color[type="time"],input.floating-label.text_color[type="datetime-local"],input.floating-label.text_color[type="week"],input.floating-label.text_color[type="month"],select.floating-label.text_color{
  color: rgba(0, 0, 0, 0.87); 
 }
-
+select.floating-label[multiple]{
+  height:auto;
+}
 /*.text_color{*/
 /*}*/
 

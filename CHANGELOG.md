@@ -1,3 +1,10 @@
+## [1.0.12](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.0.11...v1.0.12) (2021-05-08)
+
+
+### Bug Fixes
+
+* add css auto parse and save to docs. ([58fc92d](https://github.com/CoCreate-app/CoCreate-floating-label/commit/58fc92d77bb484fe3dca98a465f1a8471216c58f))
+
 ## [1.0.11](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.0.10...v1.0.11) (2021-04-27)
 
 
