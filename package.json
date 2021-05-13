@@ -1,7 +1,7 @@
 {
   "name": "@cocreate/floating-label",
   "version": "1.0.11",
-  "description": "A simple floating-label component in vanilla javascript. Easily configured using HTML5 data-attributes and/or JavaScript API.",
+  "description": "A floating label design for inputs, textarea, select and any custom component. Creates beautiful form labels that float over form fields. Add class floating-label to see the magic. Easily configured using HTML5 data-attributes and/or JavaScript API.",
   "keywords": [
     "floating-label",
     "cocreate",
