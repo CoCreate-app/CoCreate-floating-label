@@ -25,6 +25,11 @@ const CoCreateFloatingLabel = {
     }
 
     elements.forEach(el => {
+      if (observer.getInitialized(el, "cocreate-floatinglabel")) {
+				return;
+			}
+			observer.setInitialized(el, "cocreate-floatinglabel")
+			
       self.render(el);
       self.__initEvents(el)
     })
@@ -116,11 +121,10 @@ observer.init({
   include: '.floating-label',
   callback: function(mutation) {
     // console.log(mutation)
-    CoCreateFloatingLabel.initElement(mutation.target)
+    if(!mutation.isRemoved)
+      CoCreateFloatingLabel.initElement(mutation.target)
   }  
 })
-
-
 
 
 
