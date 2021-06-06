@@ -1,3 +1,10 @@
+## [1.0.13](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.0.12...v1.0.13) (2021-06-06)
+
+
+### Bug Fixes
+
+* update packages, add uuid, add data-parse to demos ([3a9582f](https://github.com/CoCreate-app/CoCreate-floating-label/commit/3a9582fb088940d7b07a65becdf19d5541a43410))
+
 ## [1.0.12](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.0.11...v1.0.12) (2021-05-08)
 
 
