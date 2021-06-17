@@ -1,3 +1,10 @@
+## [1.0.14](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.0.13...v1.0.14) (2021-06-16)
+
+
+### Bug Fixes
+
+* added header for seo ([e9b38c5](https://github.com/CoCreate-app/CoCreate-floating-label/commit/e9b38c5264274091fa6cd066f17f1ebe95e1fcd8))
+
 ## [1.0.13](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.0.12...v1.0.13) (2021-06-06)
 
 
