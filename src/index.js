@@ -25,10 +25,10 @@ const CoCreateFloatingLabel = {
     }
 
     elements.forEach(el => {
-      if (observer.getInitialized(el, "cocreate-floatinglabel")) {
-				return;
-			}
-			observer.setInitialized(el, "cocreate-floatinglabel")
+  //     if (observer.getInitialized(el, "cocreate-floatinglabel")) {
+		// 		return;
+		// 	}
+		// 	observer.setInitialized(el, "cocreate-floatinglabel")
 			
       self.render(el);
       self.__initEvents(el)
@@ -117,13 +117,10 @@ CoCreateFloatingLabel.init();
 
 observer.init({ 
   name: 'CoCreateFloatingLabelInit',
-  observe: ['subtree', 'childList'],
-  include: '.floating-label',
-  callback: function(mutation) {
-    // console.log(mutation)
-    if(!mutation.isRemoved)
-      CoCreateFloatingLabel.initElement(mutation.target)
-  }  
+  observe: ['addedNodes'],
+  callback: mutation => mutation.target.classList.contains('floating-label')
+    && CoCreateFloatingLabel.initElement(mutation.target)
+   
 })
 
 
