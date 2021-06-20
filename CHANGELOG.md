@@ -1,3 +1,10 @@
+## [1.0.15](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.0.14...v1.0.15) (2021-06-20)
+
+
+### Bug Fixes
+
+* new mutaionObserver init function ([ec9bf3c](https://github.com/CoCreate-app/CoCreate-floating-label/commit/ec9bf3c3bbaaaff3bb5f9608a0a6cee2f3203bf0))
+
 ## [1.0.14](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.0.13...v1.0.14) (2021-06-16)
 
 
