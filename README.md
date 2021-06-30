@@ -2,10 +2,12 @@
 
 A floating label design for inputs, textarea, select and any custom component. Creates beautiful form labels that float over form fields. Add class floating-label to see the magic. Easily configured using HTML5 data-attributes and/or JavaScript API. Take it for a spin in our [playground!](https://cocreate.app/docs/floating-label)
 
-![GitHub file size in bytes](https://img.shields.io/github/size/CoCreate-app/CoCreate-floating-label/dist/CoCreate-floating-label.min.js?label=minified%20size&style=for-the-badge)
-![GitHub latest release](https://img.shields.io/github/v/release/CoCreate-app/CoCreate-floating-label?style=for-the-badge)
-![GitHub](https://img.shields.io/github/license/CoCreate-app/CoCreate-floating-label?style=for-the-badge)
-![GitHub labels](https://img.shields.io/github/labels/CoCreate-app/CoCreate-floating-label/help%20wanted?style=for-the-badge)
+![minified](https://img.badgesize.io/https://cdn.cocreate.app/floating-label/latest/CoCreate-floating-label.min.js?style=flat-square&label=minified&color=orange)
+![gzip](https://img.badgesize.io/https://cdn.cocreate.app/floating-label/latest/CoCreate-floating-label.min.js?compression=gzip&style=flat-square&label=gzip&color=yellow)
+![brotli](https://img.badgesize.io/https://cdn.cocreate.app/floating-label/latest/CoCreate-floating-label.min.js?compression=brotli&style=flat-square&label=brotli)
+![GitHub latest release](https://img.shields.io/github/v/release/CoCreate-app/CoCreate-floating-label?style=flat-square)
+![License](https://img.shields.io/github/license/CoCreate-app/CoCreate-floating-label?style=flat-square)
+![Hiring](https://img.shields.io/static/v1?style=flat-square&label=&message=Hiring&color=blueviolet)
 
 ![CoCreate-floating-label](https://cdn.cocreate.app/docs/CoCreate-floating-label.gif)
 
@@ -27,6 +29,12 @@ For a complete guide and working demo refer to the [doumentation](https://cocrea
 
 ```shell
 $ npm i @cocreate/floating-label
+```
+
+## yarn
+
+```shell
+$ yarn install @cocreate/floating-label
 ```
 
 # Table of Contents
