@@ -103,9 +103,9 @@ input[type='color'] {
   border-color: rgba(0, 0, 0, 0.87);
 }
 
-.floating-label_field .active ~ .floating-label_outline .floating-label_leading,
-.floating-label_field .active ~ .floating-label_outline .floating-label_notch,
-.floating-label_field .active ~ .floating-label_outline .floating-label_trailing,
+/*.floating-label_field .active ~ .floating-label_outline .floating-label_leading,*/
+/*.floating-label_field .active ~ .floating-label_outline .floating-label_notch,*/
+/*.floating-label_field .active ~ .floating-label_outline .floating-label_trailing,*/
 .floating-label_field .open ~ .floating-label_outline .floating-label_leading,
 .floating-label_field .open ~ .floating-label_outline .floating-label_notch,
 .floating-label_field .open ~ .floating-label_outline .floating-label_trailing,
@@ -127,7 +127,7 @@ input:-webkit-autofill + .floating-label_outline .floating-label_trailing {
 
 .floating-label_field .active ~ .floating-label_outline .floating-label_notch, 
 .floating-label_field .open ~ .floating-label_outline .floating-label_notch,
-.floating-label:not(:placeholder-shown) .floating-label_notch,
+/*.floating-label:not(:placeholder-shown) .floating-label_notch,*/
 .floating-label:valid ~ .floating-label_outline .floating-label_notch,
 .floating-label:focus ~ .floating-label_outline .floating-label_notch,
 input:-webkit-autofill + .floating-label_outline .floating-label_notch {
@@ -135,7 +135,7 @@ input:-webkit-autofill + .floating-label_outline .floating-label_notch {
 }
 .floating-label_field .active ~ .floating-label_outline .floating-label_label, 
 .floating-label_field .open ~ .floating-label_outline .floating-label_label,
-.floating-label:not(:placeholder-shown) .floating-label_label,
+/*.floating-label:not(:placeholder-shown) .floating-label_label,*/
 .floating-label:valid ~ .floating-label_outline .floating-label_label,
 .floating-label:focus ~ .floating-label_outline .floating-label_label,
 input:-webkit-autofill + .floating-label_outline .floating-label_label {
@@ -194,51 +194,6 @@ input:-webkit-autofill {
   box-sizing: border-box;
 }
 
-/*.select2-container--default .select2-selection--multiple,.select2-container--default .select2-selection--single {*/
-/*     background-color: transparent!important; */
-/*     border: none; */
-/*     padding-top: 7px;*/
-/*     padding-bottom: 8px;*/
-
-/*}*/
-
-/*.select2-container {*/
-/*       width: 100%!important;*/
-/*}*/
-
-/*.select2-container--default.select2-container--focus .select2-selection--multiple {*/
-/*  border: none !important;*/
-  
-/*}*/
-
-/*.select2-container--default .select2-selection--single {*/
-/*    border: 0px solid #aaa!important;*/
-/*}*/
-
-/*.select2-container--default .select2-selection--multiple {*/
-/*    border: 0px solid #aaa!important;*/
-/*}*/
-
-/*.select2-search__field{*/
-/*  margin-top: none!important*/
-/*}*/
-
-/*.select2-selection--single{*/
-/*  height:100%!important;*/
-/*}*/
-
-/*.select2-selection--single:focus{*/
-/*  outline: -webkit-focus-ring-color auto 0px!important;*/
-/*}*/
-
-/*.select2-selection{*/
-/* min-height:39px!important;*/
-/*}*/
-
-/*.select2-container--default .select2-selection--single .select2-selection__arrow b{*/
-/*  margin-top:4px!important;*/
-/*}*/
-
 textarea.floating-label::-webkit-scrollbar {
   width: 10px;
 }
@@ -251,6 +206,7 @@ textarea.floating-label::-webkit-scrollbar-track {
 textarea.floating-label::-webkit-scrollbar-thumb {
   background: rgba(0, 0, 0, 0.1);
 }
+
 textarea.floating-label.scroll::-webkit-scrollbar-thumb {
   background: #f13b48;
 }  
