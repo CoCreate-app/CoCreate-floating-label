@@ -1,3 +1,25 @@
+## [1.0.24](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.0.23...v1.0.24) (2021-07-14)
+
+
+### Bug Fixes
+
+* upgrade all packages ([91ea08d](https://github.com/CoCreate-app/CoCreate-floating-label/commit/91ea08de4b053ef300bca0135c4d59954b479927))
+
+## [1.0.23](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.0.22...v1.0.23) (2021-07-13)
+
+
+### Bug Fixes
+
+* add yarn lockfile to git ignore ([3c82613](https://github.com/CoCreate-app/CoCreate-floating-label/commit/3c82613cade5746b8f466eee07d0841c472e335e))
+* remove yarn.lock ([d394812](https://github.com/CoCreate-app/CoCreate-floating-label/commit/d3948126b0e2071d74f9b8c2265d9f56c999244b))
+
+## [1.0.22](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.0.21...v1.0.22) (2021-07-13)
+
+
+### Bug Fixes
+
+* active open css ([702c243](https://github.com/CoCreate-app/CoCreate-floating-label/commit/702c243b1ed8a8888c77426d30275dc698cf8405))
+
 ## [1.0.21](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.0.20...v1.0.21) (2021-07-10)
 
 
