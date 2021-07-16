@@ -5,37 +5,25 @@ import './index.css';
 
 const CoCreateFloatingLabel = {
   className: 'floating-label_field',
-
+  initMap: new Map(),
+  
   init: function() {
-    this.initElement()
+    let elements = document.querySelectorAll('.floating-label');
+    this.initElements(elements)
   },
 
-  initElement: function(container) {
-    const self = this;
-
-    let mainContainer = container || document;
-    if (!mainContainer.querySelectorAll) {
-      return;
-    }
-
-    let elements = mainContainer.querySelectorAll('.floating-label');
-
-    if (elements.length == 0 && mainContainer.classList && mainContainer.classList.contains('floating-label')) {
-      elements = [mainContainer];
-    }
-
-    elements.forEach(el => {
-  //     if (observer.getInitialized(el, "cocreate-floatinglabel")) {
-		// 		return;
-		// 	}
-		// 	observer.setInitialized(el, "cocreate-floatinglabel")
-			
-      self.render(el);
-      self.__initEvents(el)
-    })
+  initElements: function (elements){
+    for(let el of elements)
+      this.initElement(el);
   },
 
-  render: function(node) {
+  initElement: function(node) {
+    if(this.initMap.has(node))
+      return false;
+
+    this.initMap.set(node, true);
+
+    this.__initEvents(node)
     if (node.parentNode && !node.parentNode.classList.contains(this.className)) {
       const placeholder = node.getAttribute('placeholder');
       const wrapper = document.createElement('div');
@@ -62,7 +50,7 @@ const CoCreateFloatingLabel = {
   },
 
   __wrap: function(el, wrapper, placeholder) {
-    el.parentNode.insertBefore( wrapper , el);
+    el.parentNode.insertBefore(wrapper, el);
     var div1 = document.createElement('div');
     div1.className = "floating-label_outline";
     var div2 = document.createElement('div');
@@ -78,13 +66,13 @@ const CoCreateFloatingLabel = {
     div3.appendChild(label);
     div1.appendChild(div3);
     div1.appendChild(div4);
-   /* console.log("wraper ",wrapper)
-    console.log("el",el)
-    console.log("div1",div1)*/
-   // console.log("Floating ====================")
+    /* console.log("wraper ",wrapper)
+     console.log("el",el)
+     console.log("div1",div1)*/
+    // console.log("Floating ====================")
     wrapper.appendChild(el);
     wrapper.appendChild(div1);
-    
+
   },
 
   __initEvents: function(node) {
@@ -115,12 +103,13 @@ const CoCreateFloatingLabel = {
 
 CoCreateFloatingLabel.init();
 
-observer.init({ 
+observer.init({
   name: 'CoCreateFloatingLabelInit',
-  observe: ['addedNodes'],
-  callback: mutation => mutation.target.classList.contains('floating-label')
-    && CoCreateFloatingLabel.initElement(mutation.target)
-   
+  observe: ['childList'],
+  target: '.floating-label',
+  callback: mutation => {
+    CoCreateFloatingLabel.initElements(mutation.addedNodes)
+  }
 })
 
 
