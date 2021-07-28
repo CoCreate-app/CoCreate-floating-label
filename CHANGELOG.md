@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.0.25...v1.1.0) (2021-07-28)
+
+
+### Features
+
+* add new is{attribute} system and remove data- from attributtes ([6c8f5e5](https://github.com/CoCreate-app/CoCreate-floating-label/commit/6c8f5e54bf9071649f25a46b4451f01610254970))
+
 ## [1.0.25](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.0.24...v1.0.25) (2021-07-17)
 
 
