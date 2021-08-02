@@ -1,3 +1,11 @@
+## [1.1.2](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.1.1...v1.1.2) (2021-08-02)
+
+
+### Bug Fixes
+
+* remove data- from attributes ([408a7d5](https://github.com/CoCreate-app/CoCreate-floating-label/commit/408a7d5cc4e116212e7053b6808d68dfc4498ece))
+* update data-fullscreen to fullscreen ([ad7e5d5](https://github.com/CoCreate-app/CoCreate-floating-label/commit/ad7e5d58c7856c9fbd8a808400f77b837df30ffc))
+
 ## [1.1.1](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.1.0...v1.1.1) (2021-07-28)
 
 
