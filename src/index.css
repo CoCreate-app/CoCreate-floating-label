@@ -125,6 +125,7 @@ input:-webkit-autofill + .floating-label_outline .floating-label_trailing {
   border-width: 2px;
 }
 
+.floating-label_field [active] ~ .floating-label_outline .floating-label_notch, 
 .floating-label_field .active ~ .floating-label_outline .floating-label_notch, 
 .floating-label_field .open ~ .floating-label_outline .floating-label_notch,
 /*.floating-label:not(:placeholder-shown) .floating-label_notch,*/
@@ -133,6 +134,8 @@ input:-webkit-autofill + .floating-label_outline .floating-label_trailing {
 input:-webkit-autofill + .floating-label_outline .floating-label_notch {
   border-top: none;
 }
+
+.floating-label_field [active] ~ .floating-label_outline .floating-label_label, 
 .floating-label_field .active ~ .floating-label_outline .floating-label_label, 
 .floating-label_field .open ~ .floating-label_outline .floating-label_label,
 /*.floating-label:not(:placeholder-shown) .floating-label_label,*/
