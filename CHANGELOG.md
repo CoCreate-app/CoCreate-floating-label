@@ -1,3 +1,10 @@
+## [1.1.7](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.1.6...v1.1.7) (2021-08-22)
+
+
+### Bug Fixes
+
+* removed data- from main-content, clone, filter-value_type ([ed09802](https://github.com/CoCreate-app/CoCreate-floating-label/commit/ed098021ef5161344cb4e26020859af3d79e779d))
+
 ## [1.1.6](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.1.5...v1.1.6) (2021-08-22)
 
 
