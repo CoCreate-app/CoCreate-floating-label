@@ -1,3 +1,10 @@
+## [1.1.13](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.1.12...v1.1.13) (2021-09-09)
+
+
+### Bug Fixes
+
+* CoCreate.config directory, path, name and  public ([ddfefea](https://github.com/CoCreate-app/CoCreate-floating-label/commit/ddfefea11f6b4428c2d212184a416e16cc8a6b98))
+
 ## [1.1.12](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.1.11...v1.1.12) (2021-09-08)
 
 
