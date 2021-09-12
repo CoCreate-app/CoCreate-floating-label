@@ -1,3 +1,10 @@
+## [1.1.17](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.1.16...v1.1.17) (2021-09-12)
+
+
+### Bug Fixes
+
+* update sidenav to use resize and toggle ([0dfd5f3](https://github.com/CoCreate-app/CoCreate-floating-label/commit/0dfd5f303174da65b41e170d92e8ed6b2929fbfb))
+
 ## [1.1.16](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.1.15...v1.1.16) (2021-09-09)
 
 
