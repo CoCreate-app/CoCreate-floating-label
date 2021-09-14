@@ -1,3 +1,10 @@
+## [1.1.19](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.1.18...v1.1.19) (2021-09-14)
+
+
+### Bug Fixes
+
+* add cocreate.app to domains ([0723cb9](https://github.com/CoCreate-app/CoCreate-floating-label/commit/0723cb91101f60d17725657fc8890fa06495172b))
+
 ## [1.1.18](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.1.17...v1.1.18) (2021-09-13)
 
 
