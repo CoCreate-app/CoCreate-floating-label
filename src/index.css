@@ -4,7 +4,7 @@
   margin-top:10px;
 }
 
-.floating-label_field .floating-label, input.floating-label  {
+.floating-label_field .floating-label  {
   display: flex;
   width:100%;
   padding: 8px 14px 8px 14px;
@@ -24,7 +24,7 @@ cocreate-select[multiple].floating-label {
     padding: 2px 2px 8px 2px!important;
 }
 
-input.floating-label[type="date"],input.floating-label[type="time"],input.floating-label[type="datetime-local"],input.floating-label[type="week"],input.floating-label[type="month"]{
+input.floating-label[type="date"],input.floating-label[type="time"],input.floating-label[type="datetime-local"],input.floating-label[type="week"],input.floating-label[type="month"],select.floating-label{
     color: transparent;
     height:40px;
 }
@@ -128,8 +128,9 @@ input:-webkit-autofill + .floating-label_outline .floating-label_trailing {
 .floating-label_field [active] ~ .floating-label_outline .floating-label_notch, 
 .floating-label_field .active ~ .floating-label_outline .floating-label_notch, 
 .floating-label_field .open ~ .floating-label_outline .floating-label_notch,
-/*.floating-label:not(:placeholder-shown) .floating-label_notch,*/
-.floating-label:valid ~ .floating-label_outline .floating-label_notch,
+
+.floating-label:not(:placeholder-shown) .floating-label_notch,
+/*.floating-label:valid ~ .floating-label_outline .floating-label_notch,*/
 .floating-label:focus ~ .floating-label_outline .floating-label_notch,
 input:-webkit-autofill + .floating-label_outline .floating-label_notch {
   border-top: none;
@@ -138,8 +139,9 @@ input:-webkit-autofill + .floating-label_outline .floating-label_notch {
 .floating-label_field [active] ~ .floating-label_outline .floating-label_label, 
 .floating-label_field .active ~ .floating-label_outline .floating-label_label, 
 .floating-label_field .open ~ .floating-label_outline .floating-label_label,
-/*.floating-label:not(:placeholder-shown) .floating-label_label,*/
-.floating-label:valid ~ .floating-label_outline .floating-label_label,
+
+.floating-label:not(:placeholder-shown) .floating-label_label,
+/*.floating-label:valid ~ .floating-label_outline .floating-label_label,*/
 .floating-label:focus ~ .floating-label_outline .floating-label_label,
 input:-webkit-autofill + .floating-label_outline .floating-label_label {
   color: inherit;

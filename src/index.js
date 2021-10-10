@@ -27,7 +27,7 @@ const CoCreateFloatingLabel = {
     if (node.parentNode && !node.parentNode.classList.contains(this.className)) {
       const placeholder = node.getAttribute('placeholder');
       const wrapper = document.createElement('div');
-      node.setAttribute("placeholder", "")
+      node.setAttribute("placeholder", " ")
       wrapper.className = this.className;
       this.__wrap(node, wrapper, placeholder);
       this.update(node);
@@ -40,11 +40,11 @@ const CoCreateFloatingLabel = {
       const active = node.hasAttribute('active')
       if (node.value || value || active) {
         node.classList.add("text_color");
-        parent.classList.add('active');
+        node.classList.add('active');
       }
       else {
         node.classList.remove("text_color");
-        parent.classList.remove('active');
+        node.classList.remove('active');
       }
     }
   },
@@ -80,10 +80,11 @@ const CoCreateFloatingLabel = {
     node.addEventListener('focus', (event) => {
       const inputContent = node.value;
       const tag_name = node.tagName.toLowerCase()
-      if (inputContent == '' || tag_name == 'select') {
+      if (inputContent || tag_name == 'select') {
         node.classList.add("text_color");
-        parent = node.closest("div");
-        parent.classList.add("active");
+        node.classList.add("active");
+        // parent = node.closest("div");
+        // parent.classList.add("active");
       }
     });
 
@@ -92,8 +93,20 @@ const CoCreateFloatingLabel = {
       const active = node.hasAttribute('active')
       if (inputContent == '' && !active) {
         node.classList.remove("text_color");
-        parent = node.closest("div");
-        parent.classList.remove("active");
+        node.classList.remove("active");
+        // parent = node.closest("div");
+        // parent.classList.remove("active");
+      }
+    });
+    
+    node.addEventListener('change', (event) => {
+      const inputContent = node.value;
+      const active = node.hasAttribute('active')
+      if (inputContent && !active) {
+        node.classList.add("text_color");
+        node.classList.add("active");
+        // parent = node.closest("div");
+        // parent.classList.add("active");
       }
     });
 
