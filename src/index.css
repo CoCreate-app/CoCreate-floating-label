@@ -28,14 +28,12 @@ input.floating-label[type="date"],input.floating-label[type="time"],input.floati
     color: transparent;
     height:40px;
 }
-input.floating-label.text_color[type="date"],input.floating-label.text_color[type="time"],input.floating-label.text_color[type="datetime-local"],input.floating-label.text_color[type="week"],input.floating-label.text_color[type="month"],select.floating-label.text_color{
+input.floating-label.active[type="date"],input.floating-label.active[type="time"],input.floating-label.active[type="datetime-local"],input.floating-label.active[type="week"],input.floating-label.active[type="month"],select.floating-label.active{
  color: rgba(0, 0, 0, 0.87); 
 }
 select.floating-label[multiple]{
   height:auto;
 }
-/*.text_color{*/
-/*}*/
 
 input[type='color'] {
   height: 39px;
@@ -47,19 +45,18 @@ input[type='color'] {
   position: absolute;
   z-index: 6;
   top: 0;
-  /*right: 0;*/
-  /*left: 0;*/
   width: 100%;
   max-width: 100%;
   height: 100%;
   text-align: left;
   pointer-events: none;
+  border-color: rgba(0, 0, 0, 0.24);
 }
 
 .floating-label_leading,
 .floating-label_notch,
 .floating-label_trailing {
-  border-color: rgba(0, 0, 0, 0.24);
+  border-color: inherit;
   border-width: 1px;
   border-style: solid;
   transition: border 0.15s cubic-bezier(0.4, 0, 0.2, 1);
@@ -91,30 +88,19 @@ input[type='color'] {
   margin-bottom: 0px!important;
   left: 4px;
   max-width: 100%;
-  color: rgba(0, 0, 0, 0.6);
+  color: inherit;
   transform-origin: left top;
   transition: transform 0.15s cubic-bezier(0.4, 0, 0.2, 1), color 0.15s cubic-bezier(0.4, 0, 0.2, 1);
   will-change: transform;
 }
 
-.floating-label:hover ~ .floating-label_outline .floating-label_leading,
-.floating-label:hover ~ .floating-label_outline .floating-label_notch,
-.floating-label:hover ~ .floating-label_outline .floating-label_trailing {
-  border-color: rgba(0, 0, 0, 0.87);
+.floating-label:hover ~ .floating-label_outline {
+  border-color: inherit;
 }
 
-/*.floating-label_field .active ~ .floating-label_outline .floating-label_leading,*/
-/*.floating-label_field .active ~ .floating-label_outline .floating-label_notch,*/
-/*.floating-label_field .active ~ .floating-label_outline .floating-label_trailing,*/
 .floating-label_field .open ~ .floating-label_outline .floating-label_leading,
 .floating-label_field .open ~ .floating-label_outline .floating-label_notch,
 .floating-label_field .open ~ .floating-label_outline .floating-label_trailing,
-/*.floating-label:not(:placeholder-shown) .floating-label_leading,*/
-/*.floating-label:not(:placeholder-shown) .floating-label_notch,*/
-/*.floating-label:not(:placeholder-shown) .floating-label_trailing,*/
-/*.floating-label:valid ~ .floating-label_outline .floating-label_leading,*/
-/*.floating-label:valid ~ .floating-label_outline .floating-label_notch,*/
-/*.floating-label:valid ~ .floating-label_outline .floating-label_trailing,*/
 .floating-label:focus ~ .floating-label_outline .floating-label_leading,
 .floating-label:focus ~ .floating-label_outline .floating-label_notch,
 .floating-label:focus ~ .floating-label_outline .floating-label_trailing,
@@ -129,7 +115,7 @@ input:-webkit-autofill + .floating-label_outline .floating-label_trailing {
 .floating-label_field .active ~ .floating-label_outline .floating-label_notch, 
 .floating-label_field .open ~ .floating-label_outline .floating-label_notch,
 
-.floating-label:not(:placeholder-shown) .floating-label_notch,
+/*.floating-label:not(:placeholder-shown) .floating-label_notch,*/
 /*.floating-label:valid ~ .floating-label_outline .floating-label_notch,*/
 .floating-label:focus ~ .floating-label_outline .floating-label_notch,
 input:-webkit-autofill + .floating-label_outline .floating-label_notch {
@@ -140,7 +126,7 @@ input:-webkit-autofill + .floating-label_outline .floating-label_notch {
 .floating-label_field .active ~ .floating-label_outline .floating-label_label, 
 .floating-label_field .open ~ .floating-label_outline .floating-label_label,
 
-.floating-label:not(:placeholder-shown) .floating-label_label,
+/*.floating-label:not(:placeholder-shown) .floating-label_label,*/
 /*.floating-label:valid ~ .floating-label_outline .floating-label_label,*/
 .floating-label:focus ~ .floating-label_outline .floating-label_label,
 input:-webkit-autofill + .floating-label_outline .floating-label_label {
