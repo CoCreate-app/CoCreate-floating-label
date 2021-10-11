@@ -1,3 +1,10 @@
+## [1.1.28](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.1.27...v1.1.28) (2021-10-11)
+
+
+### Bug Fixes
+
+* listen to change event. input have value make active ([df711b6](https://github.com/CoCreate-app/CoCreate-floating-label/commit/df711b6cbd498544092c4988fdffd1bddc2ee245))
+
 ## [1.1.27](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.1.26...v1.1.27) (2021-10-06)
 
 
