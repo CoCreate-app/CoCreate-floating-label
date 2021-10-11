@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.1.28...v1.2.0) (2021-10-11)
+
+
+### Features
+
+* inherit border-color and color from outline ([a452fe2](https://github.com/CoCreate-app/CoCreate-floating-label/commit/a452fe2b4a8b18126243b70ebd29784c9f1f9483))
+
 ## [1.1.28](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.1.27...v1.1.28) (2021-10-11)
 
 
