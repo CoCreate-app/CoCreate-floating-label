@@ -1,6 +1,6 @@
 # CoCreate-floating-label
 
-A floating label design for inputs, textarea, select and any custom component. Creates beautiful form labels that float over form fields. Add class floating-label to see the magic. Easily configured using HTML5 data-attributes and/or JavaScript API. Take it for a spin in our [playground!](https://cocreate.app/docs/floating-label)
+A floating label design for inputs, textarea, select and any custom component. Creates beautiful form labels that float over form fields. Add class floating-label to see the magic. Easily configured using HTML5 attributes and/or JavaScript API. Take it for a spin in our [playground!](https://cocreate.app/docs/floating-label)
 
 ![minified](https://img.badgesize.io/https://cdn.cocreate.app/floating-label/latest/CoCreate-floating-label.min.js?style=flat-square&label=minified&color=orange)
 ![gzip](https://img.badgesize.io/https://cdn.cocreate.app/floating-label/latest/CoCreate-floating-label.min.js?compression=gzip&style=flat-square&label=gzip&color=yellow)
