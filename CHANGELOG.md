@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.2.2...v1.2.3) (2021-10-13)
+
+
+### Bug Fixes
+
+* fixed bug that cause label not to float if data inserted in input programtically ([9aa500e](https://github.com/CoCreate-app/CoCreate-floating-label/commit/9aa500ed916219aa5e0dc2369c69e99552f28824))
+
 ## [1.2.2](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.2.1...v1.2.2) (2021-10-13)
 
 
