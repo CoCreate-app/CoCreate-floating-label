@@ -1,3 +1,11 @@
+## [1.2.5](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.2.4...v1.2.5) (2021-10-15)
+
+
+### Bug Fixes
+
+* moved mini-css-extract-plugin to devDependencies ([9c53b45](https://github.com/CoCreate-app/CoCreate-floating-label/commit/9c53b4531cc3ad493788ce8fcae5e4f3f91cf82e))
+* updated dependencies ([b021f64](https://github.com/CoCreate-app/CoCreate-floating-label/commit/b021f649fa4019e5e618ac708d17f6c46fb48235))
+
 ## [1.2.4](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.2.3...v1.2.4) (2021-10-13)
 
 
