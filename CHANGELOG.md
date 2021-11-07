@@ -1,3 +1,10 @@
+## [1.2.15](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.2.14...v1.2.15) (2021-11-07)
+
+
+### Bug Fixes
+
+* add init() directly above export default to fix bug in firefox ([35d7281](https://github.com/CoCreate-app/CoCreate-floating-label/commit/35d72810e397f99b730b1de7238456e4a83e1960))
+
 ## [1.2.14](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.2.13...v1.2.14) (2021-11-06)
 
 
