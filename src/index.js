@@ -94,8 +94,6 @@ const CoCreateFloatingLabel = {
 
 };
 
-CoCreateFloatingLabel.init();
-
 observer.init({
   name: 'CoCreateFloatingLabelInit',
   observe: ['childList'],
@@ -104,5 +102,7 @@ observer.init({
     CoCreateFloatingLabel.initElements(mutation.addedNodes);
   }
 });
+
+CoCreateFloatingLabel.init();
 
 export default CoCreateFloatingLabel;
