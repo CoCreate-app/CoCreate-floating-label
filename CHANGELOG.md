@@ -1,3 +1,10 @@
+## [1.2.23](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.2.22...v1.2.23) (2021-11-20)
+
+
+### Bug Fixes
+
+* remove cdn.CoCreate.min.css ([b2a1fea](https://github.com/CoCreate-app/CoCreate-floating-label/commit/b2a1feaa30a2b51c4416e90b05d0ef37570e8b5b))
+
 ## [1.2.22](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.2.21...v1.2.22) (2021-11-20)
 
 
