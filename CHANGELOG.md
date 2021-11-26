@@ -1,3 +1,10 @@
+## [1.2.26](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.2.25...v1.2.26) (2021-11-26)
+
+
+### Bug Fixes
+
+* docs sidenav width ([0f6265b](https://github.com/CoCreate-app/CoCreate-floating-label/commit/0f6265b352d762587e63fc8eaf9a2edafcb147b8))
+
 ## [1.2.25](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.2.24...v1.2.25) (2021-11-26)
 
 
