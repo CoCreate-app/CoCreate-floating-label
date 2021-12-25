@@ -2,6 +2,7 @@
 .floating-label_field {
   position: relative;
   margin-top:10px;
+  display: block;
 }
 
 .floating-label_field .floating-label  {
