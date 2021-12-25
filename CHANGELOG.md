@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.2.31...v1.3.0) (2021-12-25)
+
+
+### Features
+
+* wrap in put with <floating-label> element to create floating label ([a3010ea](https://github.com/CoCreate-app/CoCreate-floating-label/commit/a3010ea4b52bf347d422c6cbb85c34ffefb93948))
+
 ## [1.2.31](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.2.30...v1.2.31) (2021-12-15)
 
 
