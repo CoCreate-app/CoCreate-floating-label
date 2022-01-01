@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.3.0...v1.3.1) (2022-01-01)
+
+
+### Bug Fixes
+
+* get-value attribute value now supports a selector added # to all values currently in get-value attributes ([1a8e3b9](https://github.com/CoCreate-app/CoCreate-floating-label/commit/1a8e3b99c5acfe8408082c470ce7d25b70ae1527))
+
 # [1.3.0](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.2.31...v1.3.0) (2021-12-25)
 
 
