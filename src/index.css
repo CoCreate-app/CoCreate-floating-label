@@ -18,6 +18,10 @@
   /*z-index: 5;*/
 }
 
+.floating-label.active::placeholder{
+  opacity: 0; 
+}
+
 cocreate-select.floating-label {
     padding: 2px 2px 2px 2px!important;
 }
@@ -93,6 +97,7 @@ input[type='color'] {
   transform-origin: left top;
   transition: transform 0.15s cubic-bezier(0.4, 0, 0.2, 1), color 0.15s cubic-bezier(0.4, 0, 0.2, 1);
   will-change: transform;
+  opacity: 0;
 }
 
 .floating-label:hover ~ .floating-label_outline {
@@ -131,6 +136,7 @@ input:-webkit-autofill + .floating-label_outline .floating-label_notch {
 input:-webkit-autofill + .floating-label_outline .floating-label_label {
   color: inherit;
   transform: translateY(-17px) scale(0.75);
+  opacity: 1;
 }
 
 

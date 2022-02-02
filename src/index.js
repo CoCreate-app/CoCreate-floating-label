@@ -49,7 +49,7 @@ const CoCreateFloatingLabel = {
             wrapper = document.createElement('div');
             el.parentNode.insertBefore(wrapper, el);
         }
-        el.setAttribute("placeholder", " ");
+        // el.setAttribute("placeholder", " ");
         wrapper.className = this.className;
         
         var outline = document.createElement('div');
@@ -104,6 +104,19 @@ observer.init({
     target: '.floating-label',
     callback: mutation => {
         CoCreateFloatingLabel.initElements(mutation.addedNodes);
+    }
+});
+
+observer.init({
+    name: 'CoCreateFloatingLabelInit',
+    observe: ['attributes'],
+	attributeName: ['placeholder'],
+    target: '.floating-label',
+    callback: mutation => {
+        let value = mutation.target.getAttribute('placeholder');
+        let floatinglabel = mutation.target.parentElement;
+        let label = floatinglabel.querySelector('.floating-label_label');
+        label.innerText = value;
     }
 });
 
