@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.3.2...v1.4.0) (2022-02-02)
+
+
+### Features
+
+* updating plachlder value will update label value ([842a9db](https://github.com/CoCreate-app/CoCreate-floating-label/commit/842a9db619b3c345cc2164efef56bf92399c7b22))
+
 ## [1.3.2](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.3.1...v1.3.2) (2022-02-01)
 
 
