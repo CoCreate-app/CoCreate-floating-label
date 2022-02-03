@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.4.0...v1.4.1) (2022-02-03)
+
+
+### Bug Fixes
+
+* replaced show and hide class hidden with attribute hidden ([0807f6e](https://github.com/CoCreate-app/CoCreate-floating-label/commit/0807f6e5d4b6a19babaa8b234249513ed7647af9))
+
 # [1.4.0](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.3.2...v1.4.0) (2022-02-02)
 
 
