@@ -1,3 +1,10 @@
+## [1.4.6](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.4.5...v1.4.6) (2022-05-06)
+
+
+### Bug Fixes
+
+* update config organization_Id to organization_id ([a230419](https://github.com/CoCreate-app/CoCreate-floating-label/commit/a230419f4f71fae7703b54b8d72ec1f6e0af532d))
+
 ## [1.4.5](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.4.4...v1.4.5) (2022-02-24)
 
 
