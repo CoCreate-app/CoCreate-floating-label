@@ -48,6 +48,7 @@ const CoCreateFloatingLabel = {
         if (wrapper.tagName != 'FLOATING-LABEL'){
             wrapper = document.createElement('div');
             el.parentNode.insertBefore(wrapper, el);
+            wrapper.appendChild(el);
         }
         // el.setAttribute("placeholder", " ");
         wrapper.className = this.className;
@@ -67,7 +68,6 @@ const CoCreateFloatingLabel = {
         notch.appendChild(label);
         outline.appendChild(notch);
         outline.appendChild(trailing);
-        wrapper.appendChild(el);
         wrapper.appendChild(outline);
 
     },
