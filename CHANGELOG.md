@@ -1,3 +1,11 @@
+## [1.4.9](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.4.8...v1.4.9) (2022-05-25)
+
+
+### Bug Fixes
+
+* CSS to support non input elements that do not have a DOM placeholder ([d4cc1b9](https://github.com/CoCreate-app/CoCreate-floating-label/commit/d4cc1b92782c5b45371459dfa38974330cac20a8))
+* was replacing element causing observer to fire ([baf770d](https://github.com/CoCreate-app/CoCreate-floating-label/commit/baf770dc3fd7cd1118b36c1e9a95550ed03f7771))
+
 ## [1.4.8](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.4.7...v1.4.8) (2022-05-23)
 
 
