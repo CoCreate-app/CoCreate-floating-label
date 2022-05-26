@@ -1,3 +1,10 @@
+## [1.4.10](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.4.9...v1.4.10) (2022-05-26)
+
+
+### Bug Fixes
+
+* webkit-transition-delay causing height issues in chrome has been removed ([7ecaa45](https://github.com/CoCreate-app/CoCreate-floating-label/commit/7ecaa45c8f1a65017ce407cf7ef102fda55454b7))
+
 ## [1.4.9](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.4.8...v1.4.9) (2022-05-25)
 
 
