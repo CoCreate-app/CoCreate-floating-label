@@ -3,6 +3,11 @@
   position: relative;
   margin-top:10px;
   display: block;
+  box-sizing: border-box;
+}
+
+.floating-label_field * {
+  box-sizing: border-box;
 }
 
 .floating-label_field .floating-label  {
@@ -156,7 +161,6 @@ select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
   background-color: rgba(0, 0, 0, 0) !important;
-  -webkit-transition-delay: 99999s;
 }
 
 @-webkit-keyframes autofill {
@@ -164,6 +168,7 @@ select:-webkit-autofill:focus {
     background: transparent;
   }
 }
+
 input:-webkit-autofill {
   -webkit-animation-name: autofill;
   -webkit-animation-fill-mode: both;
@@ -186,10 +191,6 @@ input:-webkit-autofill {
   100% {
     transform: translate3d(0, -21px, 0) scale(0.75);
   }
-}
-
-* {
-  box-sizing: border-box;
 }
 
 textarea.floating-label::-webkit-scrollbar {
