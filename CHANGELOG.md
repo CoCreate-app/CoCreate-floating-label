@@ -1,3 +1,10 @@
+## [1.4.20](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.4.19...v1.4.20) (2022-10-02)
+
+
+### Bug Fixes
+
+* bump @cocreate/hosting and @cocreate/socket-client ([32766f0](https://github.com/CoCreate-app/CoCreate-floating-label/commit/32766f0b2ccaaa3e6398193dfdd0bb4006758a33))
+
 ## [1.4.19](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.4.18...v1.4.19) (2022-10-01)
 
 
