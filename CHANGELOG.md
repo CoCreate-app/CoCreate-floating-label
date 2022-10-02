@@ -1,3 +1,10 @@
+## [1.4.21](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.4.20...v1.4.21) (2022-10-02)
+
+
+### Bug Fixes
+
+* minor bug fixes ([65e9562](https://github.com/CoCreate-app/CoCreate-floating-label/commit/65e9562914fd41e2477ca929033bda34578b8cb6))
+
 ## [1.4.20](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.4.19...v1.4.20) (2022-10-02)
 
 
