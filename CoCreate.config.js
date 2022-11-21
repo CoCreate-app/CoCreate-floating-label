@@ -10,7 +10,7 @@ module.exports = {
             "collection": "files",
             "document_id": "601f41106b402c72efc07e05",
             "key": "src",
-            "data":{
+            "document": {
                 "name": "index.html",
                 "path": "/docs/floating-label/index.html",
                 "domains": [
