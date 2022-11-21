@@ -1,3 +1,10 @@
+## [1.4.24](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.4.23...v1.4.24) (2022-11-21)
+
+
+### Bug Fixes
+
+* replaced document_id with document._id ([c3015fc](https://github.com/CoCreate-app/CoCreate-floating-label/commit/c3015fca5927e369df9f37504775a15e48081f1b))
+
 ## [1.4.23](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.4.22...v1.4.23) (2022-11-21)
 
 
