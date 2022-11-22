@@ -1,3 +1,10 @@
+## [1.4.26](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.4.25...v1.4.26) (2022-11-22)
+
+
+### Bug Fixes
+
+* apply src: {{source}} to CoCreate.config ([0c8273d](https://github.com/CoCreate-app/CoCreate-floating-label/commit/0c8273dd189458549fb6513bd87cc21c9e92221c))
+
 ## [1.4.25](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.4.24...v1.4.25) (2022-11-21)
 
 
