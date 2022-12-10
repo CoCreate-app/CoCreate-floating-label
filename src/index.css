@@ -1,15 +1,17 @@
 
-.floating-label_field {
+floating-label, .floating-label_field {
   position: relative;
   margin-top:10px;
   display: block;
   box-sizing: border-box;
 }
 
+floating-label *,
 .floating-label_field * {
   box-sizing: border-box;
 }
 
+floating-label .floating-label,
 .floating-label_field .floating-label  {
   display: flex;
   width:100%;
