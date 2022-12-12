@@ -1,3 +1,10 @@
+## [1.4.44](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.4.43...v1.4.44) (2022-12-12)
+
+
+### Bug Fixes
+
+* add css for element floating-label ([b589d67](https://github.com/CoCreate-app/CoCreate-floating-label/commit/b589d6769a51f50982b673a82292d480ef3f09e9))
+
 ## [1.4.43](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.4.42...v1.4.43) (2022-12-12)
 
 
