@@ -115,6 +115,9 @@ textarea.floating-label ~ .floating-label_outline .floating-label_label {
   border-color: inherit;
 }
 
+floating-label .open ~ .floating-label_outline .floating-label_leading,
+floating-label .open ~ .floating-label_outline .floating-label_notch,
+floating-label .open ~ .floating-label_outline .floating-label_trailing,
 .floating-label_field .open ~ .floating-label_outline .floating-label_leading,
 .floating-label_field .open ~ .floating-label_outline .floating-label_notch,
 .floating-label_field .open ~ .floating-label_outline .floating-label_trailing,
@@ -128,6 +131,9 @@ input:-webkit-autofill + .floating-label_outline .floating-label_trailing {
   border-width: 2px;
 }
 
+floating-label [active] ~ .floating-label_outline .floating-label_notch, 
+floating-label .active ~ .floating-label_outline .floating-label_notch, 
+floating-label .open ~ .floating-label_outline .floating-label_notch,
 .floating-label_field [active] ~ .floating-label_outline .floating-label_notch, 
 .floating-label_field .active ~ .floating-label_outline .floating-label_notch, 
 .floating-label_field .open ~ .floating-label_outline .floating-label_notch,
@@ -139,6 +145,9 @@ input:-webkit-autofill + .floating-label_outline .floating-label_notch {
   border-top: none;
 }
 
+floating-label [active] ~ .floating-label_outline .floating-label_label, 
+floating-label .active ~ .floating-label_outline .floating-label_label, 
+floating-label .open ~ .floating-label_outline .floating-label_label,
 .floating-label_field [active] ~ .floating-label_outline .floating-label_label, 
 .floating-label_field .active ~ .floating-label_outline .floating-label_label, 
 .floating-label_field .open ~ .floating-label_outline .floating-label_label,
@@ -165,7 +174,7 @@ select:-webkit-autofill:focus {
   background-color: rgba(0, 0, 0, 0) !important;
 }
 
-@-webkit-keyframes autofill {
+@keyframes autofill {
   to {
     background: transparent;
   }
