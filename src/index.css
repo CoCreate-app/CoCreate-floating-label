@@ -6,6 +6,12 @@ floating-label, .floating-label_field {
   box-sizing: border-box;
 }
 
+floating-label:not(.floating-label_field) {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 4px 4px 4px 4px;
+}
+
 floating-label *,
 .floating-label_field * {
   box-sizing: border-box;
