@@ -1,3 +1,10 @@
+## [1.4.47](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.4.46...v1.4.47) (2022-12-13)
+
+
+### Bug Fixes
+
+* add border css to floating-label element when not intialized ([e6e9eea](https://github.com/CoCreate-app/CoCreate-floating-label/commit/e6e9eea1ab55d0aef8d3460886f44d9289014b98))
+
 ## [1.4.46](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.4.45...v1.4.46) (2022-12-13)
 
 
