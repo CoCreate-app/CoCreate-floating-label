@@ -4,13 +4,15 @@ floating-label, .floating-label_field {
   margin-top:10px;
   display: block;
   box-sizing: border-box;
+  border: none !important;
 }
 
-floating-label:not(.floating-label_field) {
+/* floating-label:not(.floating-label_field) {
   border-width: 1px;
   border-style: solid;
   border-radius: 4px 4px 4px 4px;
-}
+  border-color: rgba(0, 0, 0, 0.24)
+} */
 
 floating-label *,
 .floating-label_field * {

@@ -1,5 +1,3 @@
-// 'use restrict'
-
 import observer from '@cocreate/observer';
 import './index.css';
 
@@ -51,34 +49,35 @@ const CoCreateFloatingLabel = {
             wrapper.appendChild(el);
         }
         // el.setAttribute("placeholder", " ");
-        wrapper.className = this.className;
         
-        var outline = document.createElement('div');
+        const outline = document.createElement('div');
         outline.className = "floating-label_outline";
-        var leading = document.createElement('div');
+        const leading = document.createElement('div');
         leading.className = "floating-label_leading";
-        var notch = document.createElement('div');
+        const notch = document.createElement('div');
         notch.className = "floating-label_notch";
-        var label = document.createElement('label');
+        const trailing = document.createElement('div');
+        trailing.className = "floating-label_trailing";
+        const label = document.createElement('label');
         label.className = "floating-label_label";
         label.innerHTML = placeholder;
-        var trailing = document.createElement('div');
-        trailing.className = "floating-label_trailing";
+
         outline.appendChild(leading);
-        notch.appendChild(label);
         outline.appendChild(notch);
         outline.appendChild(trailing);
-        wrapper.appendChild(outline);
+        notch.appendChild(label);
 
+        wrapper.appendChild(outline);
+        wrapper.className = this.className;
     },
 
     __initEvents: function(node) {
 
-        node.addEventListener('focus', (event) => {
+        node.addEventListener('focus', () => {
             node.classList.add("active");
         });
 
-        node.addEventListener('blur', (event) => {
+        node.addEventListener('blur', () => {
             const inputContent = node.value;
             const active = node.hasAttribute('active');
             if (inputContent == '' && !active) {
@@ -86,7 +85,7 @@ const CoCreateFloatingLabel = {
             }
         });
 
-        node.addEventListener('change', (event) => {
+        node.addEventListener('change', () => {
             const inputContent = node.value;
             const active = node.hasAttribute('active');
             if (inputContent && !active) {
