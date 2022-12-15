@@ -1,3 +1,10 @@
+## [1.4.49](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.4.48...v1.4.49) (2022-12-15)
+
+
+### Bug Fixes
+
+* add missing dev dependency style-loader ([98ea78a](https://github.com/CoCreate-app/CoCreate-floating-label/commit/98ea78ac90910905e9c0ff3c3062c681c9a5d6f6))
+
 ## [1.4.48](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.4.47...v1.4.48) (2022-12-15)
 
 
