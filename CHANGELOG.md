@@ -1,3 +1,10 @@
+## [1.4.48](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.4.47...v1.4.48) (2022-12-15)
+
+
+### Bug Fixes
+
+* add class to wrapper after appending outline to improve rendering ([2c0cfa1](https://github.com/CoCreate-app/CoCreate-floating-label/commit/2c0cfa109cae9c9e3b3b138652ad5f7659ae9783))
+
 ## [1.4.47](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.4.46...v1.4.47) (2022-12-13)
 
 
