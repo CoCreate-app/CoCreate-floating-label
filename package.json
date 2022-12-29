@@ -1,6 +1,6 @@
 {
   "name": "@cocreate/floating-label",
-  "version": "1.4.56",
+  "version": "1.4.57",
   "description": "A floating label design for inputs, textarea, select and any custom component. Creates beautiful form labels that float over form fields. Add class floating-label to see the magic. Easily configured using HTML5 attributes and/or JavaScript API.",
   "keywords": [
     "floating-label",
@@ -20,7 +20,9 @@
     "html5-framework",
     "javascript-framework"
   ],
-  "publishConfig": { "access": "public" },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "start": "npx webpack --config webpack.config.js",
     "build": "NODE_ENV=production npx webpack --config webpack.config.js",
