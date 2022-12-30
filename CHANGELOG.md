@@ -1,3 +1,10 @@
+## [1.4.58](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.4.57...v1.4.58) (2022-12-30)
+
+
+### Bug Fixes
+
+* update config sources to use template  braces with entry on src ([bd7eee0](https://github.com/CoCreate-app/CoCreate-floating-label/commit/bd7eee0410f1464e892709a7f8b687455d4504c7))
+
 ## [1.4.57](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.4.56...v1.4.57) (2022-12-29)
 
 
