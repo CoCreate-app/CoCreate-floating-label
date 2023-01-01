@@ -1,3 +1,10 @@
+## [1.4.60](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.4.59...v1.4.60) (2023-01-01)
+
+
+### Bug Fixes
+
+* docs sanbox overflow ([f298975](https://github.com/CoCreate-app/CoCreate-floating-label/commit/f298975c456c521abc7abefc703528fa4a4688d7))
+
 ## [1.4.59](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.4.58...v1.4.59) (2022-12-31)
 
 
