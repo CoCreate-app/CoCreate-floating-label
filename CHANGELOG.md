@@ -1,3 +1,11 @@
+## [1.4.62](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.4.61...v1.4.62) (2023-01-06)
+
+
+### Bug Fixes
+
+* bump dependencies, worklow [@v3](https://github.com/v3) ([a3be21c](https://github.com/CoCreate-app/CoCreate-floating-label/commit/a3be21c1ec25793d497499db9abf8779fd54f240))
+* edit in github btn styles ([5d2036f](https://github.com/CoCreate-app/CoCreate-floating-label/commit/5d2036f8370bc727e7b05a8db246f7c9200f6e89))
+
 ## [1.4.61](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.4.60...v1.4.61) (2023-01-05)
 
 
