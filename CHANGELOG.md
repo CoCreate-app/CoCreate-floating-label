@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.4.70...v1.5.0) (2023-03-16)
+
+
+### Features
+
+* replaced get-value and set-value with a super charged version of CoCreate-events ([6829ddc](https://github.com/CoCreate-app/CoCreate-floating-label/commit/6829ddc979f4edf4db6329f106879e367984ccdb))
+
 ## [1.4.70](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.4.69...v1.4.70) (2023-02-01)
 
 
