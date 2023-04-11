@@ -1,3 +1,10 @@
+## [1.5.4](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.5.3...v1.5.4) (2023-04-11)
+
+
+### Bug Fixes
+
+* renamed domains to hosts ([b756257](https://github.com/CoCreate-app/CoCreate-floating-label/commit/b75625708acba32d0176c25dd0d838435d2eaf9b))
+
 ## [1.5.3](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.5.2...v1.5.3) (2023-03-30)
 
 
