@@ -1,3 +1,10 @@
+## [1.6.2](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.6.1...v1.6.2) (2023-04-24)
+
+
+### Bug Fixes
+
+* workflow node version updated  16 ([38c9b73](https://github.com/CoCreate-app/CoCreate-floating-label/commit/38c9b73746ce4bd2feccc7ac61d8150bdb1a3619))
+
 ## [1.6.1](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.6.0...v1.6.1) (2023-04-24)
 
 
