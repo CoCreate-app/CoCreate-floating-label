@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.5.6...v1.6.0) (2023-04-24)
+
+
+### Features
+
+* added pwa manifest ([e663ba7](https://github.com/CoCreate-app/CoCreate-floating-label/commit/e663ba780bbe487a67b544929c94286445b62ff1))
+
 ## [1.5.6](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.5.5...v1.5.6) (2023-04-11)
 
 
