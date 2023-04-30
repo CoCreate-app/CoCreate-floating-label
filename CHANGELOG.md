@@ -1,3 +1,12 @@
+## [1.6.4](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.6.3...v1.6.4) (2023-04-30)
+
+
+### Bug Fixes
+
+* fullscreen target updated to fullscreen fullscreen-target ([235765e](https://github.com/CoCreate-app/CoCreate-floating-label/commit/235765e9e8c16d252036739fc1de6ab43366ef03))
+* package-lock.json and pnpm-lock.yaml added to .gitignore ([0c5d6eb](https://github.com/CoCreate-app/CoCreate-floating-label/commit/0c5d6eb2015c9a8a2bdc8499e4b8c5c4a015845e))
+* removed toogle fullscreen icons. now using css content ([ff3864c](https://github.com/CoCreate-app/CoCreate-floating-label/commit/ff3864cd1d2bb1ca768aa50c29a78cf520945a26))
+
 ## [1.6.3](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.6.2...v1.6.3) (2023-04-24)
 
 
