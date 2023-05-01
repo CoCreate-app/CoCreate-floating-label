@@ -1,3 +1,10 @@
+## [1.6.5](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.6.4...v1.6.5) (2023-05-01)
+
+
+### Bug Fixes
+
+* replace fontawesome with svg ([afcca3a](https://github.com/CoCreate-app/CoCreate-floating-label/commit/afcca3a73bc57a625a4e74d088c5d2d453c029c1))
+
 ## [1.6.4](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.6.3...v1.6.4) (2023-04-30)
 
 
