@@ -1,3 +1,10 @@
+## [1.6.6](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.6.5...v1.6.6) (2023-05-01)
+
+
+### Bug Fixes
+
+* update manifest.json to manifest.webmanifest ([ce370e3](https://github.com/CoCreate-app/CoCreate-floating-label/commit/ce370e38a984e7d7db2b4e4f45ddd000fd30ce7b))
+
 ## [1.6.5](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.6.4...v1.6.5) (2023-05-01)
 
 
