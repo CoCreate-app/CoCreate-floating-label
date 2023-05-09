@@ -6,7 +6,7 @@ const CoCreateFloatingLabel = {
     initMap: new Map(),
 
     init: function() {
-        let elements = document.querySelectorAll('.floating-label');
+        let elements = document.querySelectorAll('.floating-label, floating-label');
         this.initElements(elements);
     },
 
@@ -16,6 +16,12 @@ const CoCreateFloatingLabel = {
     },
 
     initElement: function(node) {
+        if (node.tagName == 'FLOATING-LABEL') {
+            node = node.firstElementChild
+            if (!node.classList.contains('floating-label'))
+                node.classList.add('floating-label');
+        }
+
         if (this.initMap.has(node))
             return false;
 
