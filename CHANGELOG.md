@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.6.7...v1.7.0) (2023-05-09)
+
+
+### Features
+
+* query floating-label tag and floating-label class ([99f0f58](https://github.com/CoCreate-app/CoCreate-floating-label/commit/99f0f58a692706a3b424aeff7876adaabe949d9b))
+
 ## [1.6.7](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.6.6...v1.6.7) (2023-05-06)
 
 
