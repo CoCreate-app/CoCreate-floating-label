@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.7.0...v1.7.1) (2023-05-10)
+
+
+### Bug Fixes
+
+* apikey renamed to key ([c5edc50](https://github.com/CoCreate-app/CoCreate-floating-label/commit/c5edc50ae12f06246fdd79d05dd8a3b9873cb153))
+
 # [1.7.0](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.6.7...v1.7.0) (2023-05-09)
 
 
