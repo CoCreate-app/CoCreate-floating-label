@@ -5,17 +5,17 @@ const CoCreateFloatingLabel = {
     className: 'floating-label_field',
     initMap: new Map(),
 
-    init: function() {
+    init: function () {
         let elements = document.querySelectorAll('.floating-label, floating-label');
         this.initElements(elements);
     },
 
-    initElements: function(elements) {
+    initElements: function (elements) {
         for (let el of elements)
             this.initElement(el);
     },
 
-    initElement: function(node) {
+    initElement: function (node) {
         if (node.tagName == 'FLOATING-LABEL') {
             node = node.firstElementChild
             if (!node.classList.contains('floating-label'))
@@ -34,7 +34,7 @@ const CoCreateFloatingLabel = {
         }
     },
 
-    update: function(node, value) {
+    update: function (node, value) {
         if (node.classList.contains('floating-label') && node.parentNode.classList.contains('floating-label_field')) {
             const active = node.hasAttribute('active');
             if (node.value || value || active) {
@@ -46,16 +46,16 @@ const CoCreateFloatingLabel = {
         }
     },
 
-    __wrap: function(el) {
+    __wrap: function (el) {
         const placeholder = el.getAttribute('placeholder');
         let wrapper = el.parentNode;
-        if (wrapper.tagName != 'FLOATING-LABEL'){
+        if (wrapper.tagName != 'FLOATING-LABEL') {
             wrapper = document.createElement('div');
             el.parentNode.insertBefore(wrapper, el);
             wrapper.appendChild(el);
         }
         // el.setAttribute("placeholder", " ");
-        
+
         const outline = document.createElement('div');
         outline.className = "floating-label_outline";
         const leading = document.createElement('div');
@@ -77,7 +77,7 @@ const CoCreateFloatingLabel = {
         wrapper.className = this.className;
     },
 
-    __initEvents: function(node) {
+    __initEvents: function (node) {
 
         node.addEventListener('focus', () => {
             node.classList.add("active");
@@ -115,7 +115,7 @@ observer.init({
 observer.init({
     name: 'CoCreateFloatingLabelInit',
     observe: ['attributes'],
-	attributeName: ['placeholder'],
+    attributeName: ['placeholder'],
     target: '.floating-label',
     callback: mutation => {
         let value = mutation.target.getAttribute('placeholder');
