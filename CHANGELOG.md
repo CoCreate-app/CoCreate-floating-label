@@ -1,3 +1,10 @@
+## [1.7.2](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.7.1...v1.7.2) (2023-05-19)
+
+
+### Bug Fixes
+
+* update packages to latest version. This commit updates various packages in the dependencies section of the package.json file to their latest published versions, thereby fixing multiple bugs and improving overall performance. ([4435f2f](https://github.com/CoCreate-app/CoCreate-floating-label/commit/4435f2fee7bada07dcfe2fa22c3420be93561d8e))
+
 ## [1.7.1](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.7.0...v1.7.1) (2023-05-10)
 
 
