@@ -1,3 +1,10 @@
+## [1.7.7](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.7.6...v1.7.7) (2023-06-04)
+
+
+### Bug Fixes
+
+* Refactor CoCreate.config.js to remove hard-coded credentials ([34c4910](https://github.com/CoCreate-app/CoCreate-floating-label/commit/34c491056e11a05c09d4feed1b3890525ed28cd2))
+
 ## [1.7.6](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.7.5...v1.7.6) (2023-06-04)
 
 
