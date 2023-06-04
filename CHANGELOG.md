@@ -1,3 +1,10 @@
+## [1.7.5](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.7.4...v1.7.5) (2023-06-04)
+
+
+### Bug Fixes
+
+* **semantic-release:** worklow error solved by running node version 14 ([a3983dc](https://github.com/CoCreate-app/CoCreate-floating-label/commit/a3983dc73d96af460765431192bbe5cd3e01c11f))
+
 ## [1.7.4](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.7.3...v1.7.4) (2023-06-02)
 
 
