@@ -1,3 +1,11 @@
+## [1.7.6](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.7.5...v1.7.6) (2023-06-04)
+
+
+### Bug Fixes
+
+* replaced secert GITHUB_TOKEN with GITHUB ([f6ad241](https://github.com/CoCreate-app/CoCreate-floating-label/commit/f6ad2414b34d7649b90c019c0b726d4c63a6d06a))
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([60e403b](https://github.com/CoCreate-app/CoCreate-floating-label/commit/60e403bbeaf2b15089bf8e6aab8989cc4e538caa))
+
 ## [1.7.5](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.7.4...v1.7.5) (2023-06-04)
 
 
