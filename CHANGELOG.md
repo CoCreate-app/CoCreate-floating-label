@@ -1,3 +1,10 @@
+## [1.7.12](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.7.11...v1.7.12) (2023-06-11)
+
+
+### Bug Fixes
+
+* @cocreate/cli moved to dependencies ([aee2cc6](https://github.com/CoCreate-app/CoCreate-floating-label/commit/aee2cc61f4085649637c222da03d8aa0ea82c8b0))
+
 ## [1.7.11](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.7.10...v1.7.11) (2023-06-11)
 
 
