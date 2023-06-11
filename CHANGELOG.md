@@ -1,3 +1,10 @@
+## [1.7.18](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.7.17...v1.7.18) (2023-06-11)
+
+
+### Bug Fixes
+
+* testing workflow ([c5e2bd1](https://github.com/CoCreate-app/CoCreate-floating-label/commit/c5e2bd1fbd7d965834c724a411e8fbbd805be089))
+
 ## [1.7.17](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.7.16...v1.7.17) (2023-06-11)
 
 
