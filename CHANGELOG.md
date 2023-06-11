@@ -1,3 +1,10 @@
+## [1.7.13](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.7.12...v1.7.13) (2023-06-11)
+
+
+### Bug Fixes
+
+* postintall error ([ba216fb](https://github.com/CoCreate-app/CoCreate-floating-label/commit/ba216fbf16d9fef8c6ee04cc58c728b9709e0b75))
+
 ## [1.7.12](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.7.11...v1.7.12) (2023-06-11)
 
 
