@@ -1,3 +1,10 @@
+## [1.7.10](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.7.9...v1.7.10) (2023-06-11)
+
+
+### Bug Fixes
+
+* renamed hosts to host. the value can be a string or an array of strings ([a82a4e5](https://github.com/CoCreate-app/CoCreate-floating-label/commit/a82a4e5c71963a98363752cb18c568f37342a236))
+
 ## [1.7.9](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.7.8...v1.7.9) (2023-06-10)
 
 
