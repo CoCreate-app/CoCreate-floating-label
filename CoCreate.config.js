@@ -4,8 +4,8 @@ module.exports = {
     "host": "",
     "sources": [
         {
-            "collection": "files",
-            "document": {
+            "array": "files",
+            "object": {
                 "_id": "601f41106b402c72efc07e05",
                 "name": "index.html",
                 "path": "/docs/floating-label/index.html",
