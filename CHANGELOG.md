@@ -1,3 +1,17 @@
+# [1.8.0](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.7.21...v1.8.0) (2023-08-16)
+
+
+### Bug Fixes
+
+* crud attributes renamed ([9ea753a](https://github.com/CoCreate-app/CoCreate-floating-label/commit/9ea753ac03b37a38fabceb614988154da6f08a1e))
+* replace -target -selector ([56c8d66](https://github.com/CoCreate-app/CoCreate-floating-label/commit/56c8d66c013a725c7b70aaeaf80c02004c321b3c))
+* webpack.config and package.json make use of mode=production instead of process.env ([264b338](https://github.com/CoCreate-app/CoCreate-floating-label/commit/264b338464d8664934d0a9f744f2c0b1e87c0b31))
+
+
+### Features
+
+* name attribute and variable renamed to key ([e6e412b](https://github.com/CoCreate-app/CoCreate-floating-label/commit/e6e412b06fb28e15729788de623801450cd0bd94))
+
 ## [1.7.21](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.7.20...v1.7.21) (2023-06-14)
 
 
