@@ -1,3 +1,12 @@
+## [1.9.1](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.9.0...v1.9.1) (2023-08-21)
+
+
+### Bug Fixes
+
+* /dist/CoCreate.js updated to https://CoCreate.app/dist/CoCreate.js ([969ef43](https://github.com/CoCreate-app/CoCreate-floating-label/commit/969ef430a1c45388ef3e073312becf9e3fb85cea))
+* replace cdn with /dist ([4af0130](https://github.com/CoCreate-app/CoCreate-floating-label/commit/4af0130fd652c34689d52dcc10560d337b897e1a))
+* update file uploader ([d4d126f](https://github.com/CoCreate-app/CoCreate-floating-label/commit/d4d126fb85f06fa540262c302f8d3ea721107849))
+
 # [1.9.0](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.8.0...v1.9.0) (2023-08-17)
 
 
