@@ -1,3 +1,11 @@
+## [1.10.2](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.10.1...v1.10.2) (2023-09-18)
+
+
+### Bug Fixes
+
+*  Add path and pathname ([4f6a99b](https://github.com/CoCreate-app/CoCreate-floating-label/commit/4f6a99b6c478afd8971214b3e148a55c7a225e0b))
+* Update CoCreate depndencies to latest versions ([58484f1](https://github.com/CoCreate-app/CoCreate-floating-label/commit/58484f11aa3fd461912e04ca7e603e2ad3104f54))
+
 ## [1.10.1](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.10.0...v1.10.1) (2023-08-21)
 
 
