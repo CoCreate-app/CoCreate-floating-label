@@ -74,7 +74,8 @@ const CoCreateFloatingLabel = {
         notch.appendChild(label);
 
         wrapper.appendChild(outline);
-        wrapper.className = this.className;
+        wrapper.classList.add(this.className);
+
     },
 
     __initEvents: function (node) {
