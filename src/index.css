@@ -1,7 +1,6 @@
 
 floating-label, .floating-label_field {
   position: relative;
-  margin-top:10px;
   display: block;
   box-sizing: border-box;
   border: none !important;
