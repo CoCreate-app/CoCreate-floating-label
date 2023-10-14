@@ -1,3 +1,12 @@
+## [1.10.5](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.10.4...v1.10.5) (2023-10-14)
+
+
+### Bug Fixes
+
+* bump dependencies ([4058b4c](https://github.com/CoCreate-app/CoCreate-floating-label/commit/4058b4cc26d3de80f7dc3f00eb19ee80f3744b0d))
+* remove margin-top ([9c66ffc](https://github.com/CoCreate-app/CoCreate-floating-label/commit/9c66ffc852dd1f561fe00651c9d400b665570382))
+* wrapper classes or no longer overwritten ([c72d85d](https://github.com/CoCreate-app/CoCreate-floating-label/commit/c72d85db887a421b213095da8cd1bacaa1e81714))
+
 ## [1.10.4](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.10.3...v1.10.4) (2023-10-09)
 
 
