@@ -62,7 +62,6 @@ input[type='color'] {
 .floating-label_outline {
   display: flex;
   position: absolute;
-  z-index: 6;
   top: 0;
   width: 100%;
   max-width: 100%;
