@@ -1,3 +1,12 @@
+## [1.10.7](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.10.6...v1.10.7) (2023-11-03)
+
+
+### Bug Fixes
+
+* favicon.ico path ([2c0cdc8](https://github.com/CoCreate-app/CoCreate-floating-label/commit/2c0cdc80ad4719836fdd614e9f52341390e7dbff))
+* removed z-index ([e6d4058](https://github.com/CoCreate-app/CoCreate-floating-label/commit/e6d4058bf39730cd0ca633675f8efee9fb86b3da))
+* update dependencies to the lates versions ([2ad109f](https://github.com/CoCreate-app/CoCreate-floating-label/commit/2ad109f24276fd3e7b65b07a7c64eaba806780a0))
+
 ## [1.10.6](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.10.5...v1.10.6) (2023-10-25)
 
 
