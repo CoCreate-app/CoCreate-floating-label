@@ -12,8 +12,7 @@ module.exports = {
                 "pathname": "/docs/floating-label/index.html",
                 "src": "{{./docs/index.html}}",
                 "host": [
-                    "*",
-                    "general.cocreate.app"
+                    "*"
                 ],
                 "directory": "floating-label",
                 "content-type": "{{content-type}}",
