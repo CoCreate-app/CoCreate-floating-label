@@ -1,3 +1,11 @@
+## [1.10.8](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.10.7...v1.10.8) (2023-11-09)
+
+
+### Bug Fixes
+
+* meta name typo ([74c498d](https://github.com/CoCreate-app/CoCreate-floating-label/commit/74c498d185ab45307156fc474142e5bbbe78a624))
+* update host ([ac78971](https://github.com/CoCreate-app/CoCreate-floating-label/commit/ac7897117550139399ede23176b621b822e490b6))
+
 ## [1.10.7](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.10.6...v1.10.7) (2023-11-03)
 
 
