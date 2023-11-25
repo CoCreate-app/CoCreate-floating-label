@@ -1,3 +1,15 @@
+# [1.12.0](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.11.0...v1.12.0) (2023-11-25)
+
+
+### Bug Fixes
+
+* update nav, edit button and css path ([c35552d](https://github.com/CoCreate-app/CoCreate-floating-label/commit/c35552d678446d819c8a9d3f41dbb6ad0a08a446))
+
+
+### Features
+
+* upgrade dependencies for latest features and fixes ([20ca889](https://github.com/CoCreate-app/CoCreate-floating-label/commit/20ca88956c64210b7f4e1c8efbf8d4e89737e6be))
+
 # [1.11.0](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.10.9...v1.11.0) (2023-11-19)
 
 
