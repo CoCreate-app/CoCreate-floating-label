@@ -6,28 +6,27 @@ const CoCreateFloatingLabel = {
     initMap: new Map(),
 
     init: function (elements) {
-        if (!elements) {
+        if (!elements)
             elements = document.querySelectorAll('.floating-label, floating-label');
-        } else if (!Array.isArray(elements)) {
+        else if (!Array.isArray(elements))
             elements = [elements]
-        }
 
-        for (let i = 0; i < elements.length; i++) {
-            if (elements[i].tagName == 'FLOATING-LABEL') {
-                elements[i] = elements[i].firstElementChild
-                if (!elements[i].classList.contains('floating-label'))
-                    elements[i].classList.add('floating-label');
+        for (let node of elements) {
+            if (node.tagName == 'FLOATING-LABEL') {
+                node = node.firstElementChild
+                if (!node.classList.contains('floating-label'))
+                    node.classList.add('floating-label');
             }
 
-            if (this.initMap.has(elements[i]))
-                return false;
+            if (this.initMap.has(node))
+                continue;
 
-            this.initMap.set(elements[i], true);
+            this.initMap.set(node, true);
 
-            this.__initEvents(elements[i]);
-            if (elements[i].parentNode && !elements[i].parentNode.classList.contains(this.className)) {
-                this.__wrap(elements[i]);
-                this.update(elements[i]);
+            this.__initEvents(node);
+            if (node.parentNode && !node.parentNode.classList.contains(this.className)) {
+                this.__wrap(node);
+                this.update(node);
             }
 
         }
@@ -106,7 +105,7 @@ const CoCreateFloatingLabel = {
 observer.init({
     name: 'CoCreateFloatingLabelInit',
     observe: ['addedNodes'],
-    target: '.floating-label',
+    target: 'floating-label, .floating-label',
     callback: mutation => {
         CoCreateFloatingLabel.init(mutation.target);
     }
