@@ -1,3 +1,11 @@
+## [1.13.1](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.13.0...v1.13.1) (2024-02-05)
+
+
+### Bug Fixes
+
+* observe addNodes ([d3cdf88](https://github.com/CoCreate-app/CoCreate-floating-label/commit/d3cdf887d8e83bf6c62db6020dd9dfdb8be5457e))
+* observer init ([7d3161f](https://github.com/CoCreate-app/CoCreate-floating-label/commit/7d3161f64f247f2d15637ac465b25c44e86f11cb))
+
 # [1.13.0](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.12.0...v1.13.0) (2023-11-25)
 
 
