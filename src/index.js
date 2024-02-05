@@ -5,32 +5,31 @@ const CoCreateFloatingLabel = {
     className: 'floating-label_field',
     initMap: new Map(),
 
-    init: function () {
-        let elements = document.querySelectorAll('.floating-label, floating-label');
-        this.initElements(elements);
-    },
-
-    initElements: function (elements) {
-        for (let el of elements)
-            this.initElement(el);
-    },
-
-    initElement: function (node) {
-        if (node.tagName == 'FLOATING-LABEL') {
-            node = node.firstElementChild
-            if (!node.classList.contains('floating-label'))
-                node.classList.add('floating-label');
+    init: function (elements) {
+        if (!elements) {
+            elements = document.querySelectorAll('.floating-label, floating-label');
+        } else if (!Array.isArray(elements)) {
+            elements = [elements]
         }
 
-        if (this.initMap.has(node))
-            return false;
+        for (let i = 0; i < elements.length; i++) {
+            if (elements[i].tagName == 'FLOATING-LABEL') {
+                elements[i] = elements[i].firstElementChild
+                if (!elements[i].classList.contains('floating-label'))
+                    elements[i].classList.add('floating-label');
+            }
 
-        this.initMap.set(node, true);
+            if (this.initMap.has(elements[i]))
+                return false;
 
-        this.__initEvents(node);
-        if (node.parentNode && !node.parentNode.classList.contains(this.className)) {
-            this.__wrap(node);
-            this.update(node);
+            this.initMap.set(elements[i], true);
+
+            this.__initEvents(elements[i]);
+            if (elements[i].parentNode && !elements[i].parentNode.classList.contains(this.className)) {
+                this.__wrap(elements[i]);
+                this.update(elements[i]);
+            }
+
         }
     },
 
@@ -106,10 +105,10 @@ const CoCreateFloatingLabel = {
 
 observer.init({
     name: 'CoCreateFloatingLabelInit',
-    observe: ['childList'],
+    observe: ['addedNodes'],
     target: '.floating-label',
     callback: mutation => {
-        CoCreateFloatingLabel.initElements(mutation.addedNodes);
+        CoCreateFloatingLabel.init(mutation.target);
     }
 });
 
