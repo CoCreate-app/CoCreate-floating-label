@@ -191,11 +191,34 @@ input:-webkit-autofill {
   -webkit-animation-fill-mode: both;
 }
 
-.input--error .floating-label_label {
-  color: #FF8484 !important;
-  animation: shake 0.25s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
-  backface-visibility: hidden;
-  perspective: 1000px;
+floating-label [validation='true']~.floating-label_outline .floating-label_leading,
+floating-label [validation='true']~.floating-label_outline .floating-label_notch,
+floating-label [validation='true']~.floating-label_outline .floating-label_trailing,
+.floating-label_field [validation='true']~.floating-label_outline .floating-label_leading,
+.floating-label_field [validation='true']~.floating-label_outline .floating-label_notch,
+.floating-label_field [validation='true']~.floating-label_outline .floating-label_trailing,
+floating-label [unique='true']~.floating-label_outline .floating-label_leading,
+floating-label [unique='true']~.floating-label_outline .floating-label_notch,
+floating-label [unique='true']~.floating-label_outline .floating-label_trailing,
+.floating-label_field [unique='true']~.floating-label_outline .floating-label_leading,
+.floating-label_field [unique='true']~.floating-label_outline .floating-label_notch,
+.floating-label_field [unique='true']~.floating-label_outline .floating-label_trailing {
+    border-color: green
+}
+
+floating-label [validation='false']~.floating-label_outline .floating-label_leading,
+floating-label [validation='false']~.floating-label_outline .floating-label_notch,
+floating-label [validation='false']~.floating-label_outline .floating-label_trailing,
+.floating-label_field [validation='false']~.floating-label_outline .floating-label_leading,
+.floating-label_field [validation='false']~.floating-label_outline .floating-label_notch,
+.floating-label_field [validation='false']~.floating-label_outline .floating-label_trailing,
+floating-label [unique='false']~.floating-label_outline .floating-label_leading,
+floating-label [unique='false']~.floating-label_outline .floating-label_notch,
+floating-label [unique='false']~.floating-label_outline .floating-label_trailing,
+.floating-label_field [unique='false']~.floating-label_outline .floating-label_leading,
+.floating-label_field [unique='false']~.floating-label_outline .floating-label_notch,
+.floating-label_field [unique='false']~.floating-label_outline .floating-label_trailing {
+    border-color: red
 }
 
 @keyframes shake {
