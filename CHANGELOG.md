@@ -1,3 +1,10 @@
+## [1.13.2](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.13.1...v1.13.2) (2024-03-18)
+
+
+### Bug Fixes
+
+* handling validation and unique true or false ([ffa07d7](https://github.com/CoCreate-app/CoCreate-floating-label/commit/ffa07d7f0511639023154187f16aa388a524fe95))
+
 ## [1.13.1](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.13.0...v1.13.1) (2024-02-05)
 
 
