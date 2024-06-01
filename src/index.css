@@ -18,9 +18,7 @@ floating-label *,
   box-sizing: border-box;
 }
 
-floating-label .floating-label,
-.floating-label_field .floating-label  {
-  display: flex;
+.floating-label  {
   width:100%;
   padding: 8px 14px 8px 14px;
   border: none !important;
@@ -30,6 +28,10 @@ floating-label .floating-label,
   line-height: 1.5;
   /*color: rgba(0, 0, 0, 0.87);*/
   /*z-index: 5;*/
+}
+
+.floating-label[contenteditable]  {
+  display: block;
 }
 
 .floating-label.active::placeholder{

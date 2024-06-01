@@ -35,7 +35,7 @@ const CoCreateFloatingLabel = {
     update: function (node, value) {
         if (node.classList.contains('floating-label') && node.parentNode.classList.contains('floating-label_field')) {
             const active = node.hasAttribute('active');
-            if (node.value || value || active) {
+            if (node.value || node.innerHTML || value || active) {
                 node.classList.add('active');
             }
             else {
@@ -83,20 +83,27 @@ const CoCreateFloatingLabel = {
         });
 
         node.addEventListener('blur', () => {
-            const inputContent = node.value;
             const active = node.hasAttribute('active');
-            if (inputContent == '' && !active) {
+            if (node.value == '' && !active) {
                 node.classList.remove("active");
             }
         });
 
         node.addEventListener('change', () => {
-            const inputContent = node.value;
             const active = node.hasAttribute('active');
-            if (inputContent && !active) {
+            if (node.value && !active) {
                 node.classList.add("active");
             }
         });
+
+        if (node.hasAttribute('contenteditable')) {
+            node.addEventListener('input', () => {
+                const active = node.hasAttribute('active');
+                if (node.innerHTML && !active) {
+                    node.classList.add("active");
+                }
+            });
+        }
 
     },
 
