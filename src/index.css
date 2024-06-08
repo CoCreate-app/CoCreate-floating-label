@@ -26,12 +26,17 @@ floating-label *,
   background-color: transparent;
   font-size: 16px;
   line-height: 1.5;
+  color: inherit;
   /*color: rgba(0, 0, 0, 0.87);*/
   /*z-index: 5;*/
 }
 
 .floating-label[contenteditable]  {
   display: block;
+}
+
+.floating-label::placeholder {
+    color: inherit;
 }
 
 .floating-label.active::placeholder{
@@ -50,7 +55,7 @@ input.floating-label[type="date"],input.floating-label[type="time"],input.floati
     height:40px;
 }
 input.floating-label.active[type="date"],input.floating-label.active[type="time"],input.floating-label.active[type="datetime-local"],input.floating-label.active[type="week"],input.floating-label.active[type="month"],select.floating-label.active{
- color: rgba(0, 0, 0, 0.87); 
+ color: inherit; 
 }
 select.floating-label[multiple]{
   height:auto;
@@ -70,7 +75,7 @@ input[type='color'] {
   height: 100%;
   text-align: left;
   pointer-events: none;
-  border-color: rgba(0, 0, 0, 0.24);
+  border-color: inherit;
 }
 
 .floating-label_leading,
