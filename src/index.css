@@ -4,6 +4,7 @@ floating-label, .floating-label_field {
   display: block;
   box-sizing: border-box;
   border: none !important;
+  padding: 8px 0px
 }
 
 /* floating-label:not(.floating-label_field) {
@@ -20,8 +21,8 @@ floating-label *,
 
 .floating-label  {
   width:100%;
-  padding: 8px 14px 8px 14px;
-  border: none !important;
+  padding: 0px 14px;
+  border: 5px solid transparent;  /* border: none !important; */
   outline: none !important;
   background-color: transparent;
   font-size: 16px;
@@ -184,7 +185,11 @@ textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  background-color: rgba(0, 0, 0, 0) !important;
+    background-color: #333 !important;
+    color: inherit;
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: inherit !important;
+  /* background-color: rgba(0, 0, 0, 0) !important; */
 }
 
 @keyframes autofill {
