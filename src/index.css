@@ -22,7 +22,7 @@ floating-label *,
 .floating-label  {
   width:100%;
   padding: 0px 14px;
-  border: 5px solid transparent;  /* border: none !important; */
+  border: none !important;
   outline: none !important;
   background-color: transparent;
   font-size: 16px;
@@ -53,7 +53,7 @@ cocreate-select[multiple].floating-label {
 
 input.floating-label[type="date"],input.floating-label[type="time"],input.floating-label[type="datetime-local"],input.floating-label[type="week"],input.floating-label[type="month"],select.floating-label{
     color: transparent;
-    height:40px;
+    height:24px;
 }
 input.floating-label.active[type="date"],input.floating-label.active[type="time"],input.floating-label.active[type="datetime-local"],input.floating-label.active[type="week"],input.floating-label.active[type="month"],select.floating-label.active{
  color: inherit; 
