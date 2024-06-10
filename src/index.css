@@ -148,9 +148,11 @@ input:-webkit-autofill + .floating-label_outline .floating-label_trailing {
 floating-label [active] ~ .floating-label_outline .floating-label_notch, 
 floating-label .active ~ .floating-label_outline .floating-label_notch, 
 floating-label .open ~ .floating-label_outline .floating-label_notch,
+floating-label:not(:empty) ~ .floating-label_outline .floating-label_label,
 .floating-label_field [active] ~ .floating-label_outline .floating-label_notch, 
 .floating-label_field .active ~ .floating-label_outline .floating-label_notch, 
 .floating-label_field .open ~ .floating-label_outline .floating-label_notch,
+.floating-label_field:not(:empty) ~ .floating-label_outline .floating-label_label,
 input.floating-label:not(:placeholder-shown) ~ .floating-label_outline .floating-label_notch,
 textarea.floating-label:not(:placeholder-shown) ~ .floating-label_outline .floating-label_notch,
 /*.floating-label:valid ~ .floating-label_outline .floating-label_notch,*/
@@ -162,9 +164,11 @@ input:-webkit-autofill + .floating-label_outline .floating-label_notch {
 floating-label [active] ~ .floating-label_outline .floating-label_label, 
 floating-label .active ~ .floating-label_outline .floating-label_label, 
 floating-label .open ~ .floating-label_outline .floating-label_label,
+floating-label:not(:empty) ~ .floating-label_outline .floating-label_label,
 .floating-label_field [active] ~ .floating-label_outline .floating-label_label, 
 .floating-label_field .active ~ .floating-label_outline .floating-label_label, 
 .floating-label_field .open ~ .floating-label_outline .floating-label_label,
+.floating-label_field:not(:empty) ~ .floating-label_outline .floating-label_label,
 input.floating-label:not(:placeholder-shown) ~ .floating-label_outline .floating-label_label,
 textarea.floating-label:not(:placeholder-shown) ~ .floating-label_outline .floating-label_label,
 /*.floating-label:valid ~ .floating-label_outline .floating-label_label,*/
