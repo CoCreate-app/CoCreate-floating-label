@@ -1,3 +1,16 @@
+## [1.13.4](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.13.3...v1.13.4) (2024-06-12)
+
+
+### Bug Fixes
+
+* autofill css ([c738adb](https://github.com/CoCreate-app/CoCreate-floating-label/commit/c738adb8b5d1a37d5746ed6ed23b61a1d4eeb2f1))
+* border ([6c62d4e](https://github.com/CoCreate-app/CoCreate-floating-label/commit/6c62d4ef69bb1e416f15fb7e0325fb501cc0a9bf))
+* bump cocreate dependencies ([a76e400](https://github.com/CoCreate-app/CoCreate-floating-label/commit/a76e4000c46fc5e050af23c92a73e9cb04a602e3))
+* improved handling of contenteditable elements ([e84dafc](https://github.com/CoCreate-app/CoCreate-floating-label/commit/e84dafc938656af27e8e4496dc7f8050b2be519e))
+* inherit color to support light and dark theme ([c5f8719](https://github.com/CoCreate-app/CoCreate-floating-label/commit/c5f871992688230235b1a9b650e9d0b40dc3f1d0))
+* not(:empty) ([3377e84](https://github.com/CoCreate-app/CoCreate-floating-label/commit/3377e8455095dfa8571b466b841561e9db89cf30))
+* svg icon class ([a39c2a5](https://github.com/CoCreate-app/CoCreate-floating-label/commit/a39c2a58680ab6283159ce9ba20c048d5457f5bd))
+
 ## [1.13.3](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.13.2...v1.13.3) (2024-04-29)
 
 
