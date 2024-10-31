@@ -112,7 +112,7 @@ const CoCreateFloatingLabel = {
 observer.init({
     name: 'CoCreateFloatingLabelInit',
     observe: ['addedNodes'],
-    target: 'floating-label, .floating-label',
+    selector: 'floating-label, .floating-label',
     callback: mutation => {
         CoCreateFloatingLabel.init(mutation.target);
     }
@@ -122,7 +122,7 @@ observer.init({
     name: 'CoCreateFloatingLabelInit',
     observe: ['attributes'],
     attributeName: ['placeholder'],
-    target: '.floating-label',
+    selector: '.floating-label',
     callback: mutation => {
         let value = mutation.target.getAttribute('placeholder');
         let floatinglabel = mutation.target.parentElement;
