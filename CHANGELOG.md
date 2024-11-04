@@ -1,3 +1,18 @@
+# [1.14.0](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.13.5...v1.14.0) (2024-11-04)
+
+
+### Bug Fixes
+
+* improved cocreate-select.floating-label css ([a1982c4](https://github.com/CoCreate-app/CoCreate-floating-label/commit/a1982c4785cf5516dddfbf9f77facb8508abd120))
+* observer taget has been renamed to selector ([546ceb9](https://github.com/CoCreate-app/CoCreate-floating-label/commit/546ceb93df62048120f79b597672ca6ad1c5db4e))
+* pretier.config.js and file formating ([258fb0c](https://github.com/CoCreate-app/CoCreate-floating-label/commit/258fb0c7d081bf2c3d34b5fe4f9f9a1b1d98a722))
+
+
+### Features
+
+* add prettier.config.js and format files ([2c0ef26](https://github.com/CoCreate-app/CoCreate-floating-label/commit/2c0ef263757c9ba53b62a207dd5c095548211d54))
+* add prettier.config.js and format files ([9e4b55b](https://github.com/CoCreate-app/CoCreate-floating-label/commit/9e4b55b8e651a1b6acd20fc1094ff81efade4a6c))
+
 ## [1.13.5](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.13.4...v1.13.5) (2024-06-19)
 
 
