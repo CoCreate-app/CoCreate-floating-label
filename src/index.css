@@ -1,10 +1,10 @@
-
-floating-label, .floating-label_field {
-  position: relative;
-  display: block;
-  box-sizing: border-box;
-  border: none !important;
-  padding: 8px 0px
+floating-label,
+.floating-label_field {
+	position: relative;
+	display: block;
+	box-sizing: border-box;
+	border: none !important;
+	padding: 8px 0px;
 }
 
 /* floating-label:not(.floating-label_field) {
@@ -16,121 +16,133 @@ floating-label, .floating-label_field {
 
 floating-label *,
 .floating-label_field * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-.floating-label  {
-  width:100%;
-  padding: 0px 14px;
-  border: none !important;
-  outline: none !important;
-  background-color: transparent;
-  font-size: 16px;
-  line-height: 1.5;
-  color: inherit;
-  /*color: rgba(0, 0, 0, 0.87);*/
-  /*z-index: 5;*/
+.floating-label {
+	width: 100%;
+	padding: 0px 14px;
+	border: none !important;
+	outline: none !important;
+	background-color: transparent;
+	font-size: 16px;
+	line-height: 1.5;
+	color: inherit;
+	/*color: rgba(0, 0, 0, 0.87);*/
+	/*z-index: 5;*/
 }
 
-.floating-label[contenteditable]  {
-  display: block;
+.floating-label[contenteditable] {
+	display: block;
 }
 
 .floating-label::placeholder {
-    color: inherit;
+	color: inherit;
 }
 
-.floating-label.active::placeholder{
-  opacity: 0; 
+.floating-label.active::placeholder {
+	opacity: 0;
 }
 
 cocreate-select.floating-label {
-    min-height:24px;
-    padding: 0px 2px!important;
+	min-height: 24px;
+	padding: 0px 2px !important;
 }
 cocreate-select[multiple].floating-label {
-    padding: 2px 2px 8px 2px!important;
+	padding: 2px 2px 8px 2px !important;
 }
 
-input.floating-label[type="date"],input.floating-label[type="time"],input.floating-label[type="datetime-local"],input.floating-label[type="week"],input.floating-label[type="month"],select.floating-label{
-    color: transparent;
-    height:24px;
+input.floating-label[type="date"],
+input.floating-label[type="time"],
+input.floating-label[type="datetime-local"],
+input.floating-label[type="week"],
+input.floating-label[type="month"],
+select.floating-label {
+	color: transparent;
+	height: 24px;
 }
-input.floating-label.active[type="date"],input.floating-label.active[type="time"],input.floating-label.active[type="datetime-local"],input.floating-label.active[type="week"],input.floating-label.active[type="month"],select.floating-label.active{
- color: inherit; 
+input.floating-label.active[type="date"],
+input.floating-label.active[type="time"],
+input.floating-label.active[type="datetime-local"],
+input.floating-label.active[type="week"],
+input.floating-label.active[type="month"],
+select.floating-label.active {
+	color: inherit;
 }
-select.floating-label[multiple]{
-  height:auto;
+select.floating-label[multiple] {
+	height: auto;
 }
-.floating-label[type="file"]{
-  min-height: 24px
+.floating-label[type="file"] {
+	min-height: 24px;
+	cursor: pointer;
 }
 
-input[type='color'] {
-  height: 39px;
-  padding: 5px 6px 5px 6px!important;
+input[type="color"] {
+	height: 39px;
+	padding: 5px 6px 5px 6px !important;
 }
 
 .floating-label_outline {
-  display: flex;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  max-width: 100%;
-  height: 100%;
-  text-align: left;
-  pointer-events: none;
-  border-color: inherit;
+	display: flex;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	max-width: 100%;
+	height: 100%;
+	text-align: left;
+	pointer-events: none;
+	border-color: inherit;
 }
 
 .floating-label_leading,
 .floating-label_notch,
 .floating-label_trailing {
-  border-color: inherit;
-  border-width: 1px;
-  border-style: solid;
-  transition: border 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+	border-color: inherit;
+	border-width: 1px;
+	border-style: solid;
+	transition: border 0.15s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .floating-label_leading {
-  border-radius: 4px 0 0 4px;
-  border-right: none;
-  width: 12px;
+	border-radius: 4px 0 0 4px;
+	border-right: none;
+	width: 12px;
 }
 
 .floating-label_notch {
-  flex: 0 1 auto;
-  border-right: none;
-  border-left: none;
+	flex: 0 1 auto;
+	border-right: none;
+	border-left: none;
 }
 
 .floating-label_trailing {
-  flex-grow: 1;
-  border-radius: 0 4px 4px 0;
-  border-left: none;
+	flex-grow: 1;
+	border-radius: 0 4px 4px 0;
+	border-left: none;
 }
 
 .floating-label_label {
-  display: inline-block;
-  position: relative;
-  top: 11px;
-  bottom: auto;
-  margin-bottom: 0px!important;
-  left: 4px;
-  max-width: 100%;
-  color: inherit;
-  transform-origin: left top;
-  transition: transform 0.15s cubic-bezier(0.4, 0, 0.2, 1), color 0.15s cubic-bezier(0.4, 0, 0.2, 1);
-  will-change: transform;
+	display: inline-block;
+	position: relative;
+	top: 11px;
+	bottom: auto;
+	margin-bottom: 0px !important;
+	left: 4px;
+	max-width: 100%;
+	color: inherit;
+	transform-origin: left top;
+	transition: transform 0.15s cubic-bezier(0.4, 0, 0.2, 1),
+		color 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+	will-change: transform;
 }
 
 input.floating-label ~ .floating-label_outline .floating-label_label,
 textarea.floating-label ~ .floating-label_outline .floating-label_label {
-  opacity: 0;
+	opacity: 0;
 }
 
 .floating-label:hover ~ .floating-label_outline {
-  border-color: inherit;
+	border-color: inherit;
 }
 
 floating-label .open ~ .floating-label_outline .floating-label_leading,
@@ -145,8 +157,8 @@ floating-label .open ~ .floating-label_outline .floating-label_trailing,
 input:-webkit-autofill + .floating-label_outline .floating-label_leading,
 input:-webkit-autofill + .floating-label_outline .floating-label_notch,
 input:-webkit-autofill + .floating-label_outline .floating-label_trailing {
-  border-color: inherit;
-  border-width: 2px;
+	border-color: inherit;
+	border-width: 2px;
 }
 
 floating-label [active] ~ .floating-label_outline .floating-label_notch, 
@@ -162,7 +174,7 @@ textarea.floating-label:not(:placeholder-shown) ~ .floating-label_outline .float
 /*.floating-label:valid ~ .floating-label_outline .floating-label_notch,*/
 .floating-label:focus ~ .floating-label_outline .floating-label_notch,
 input:-webkit-autofill + .floating-label_outline .floating-label_notch {
-  border-top: none;
+	border-top: none;
 }
 
 floating-label [active] ~ .floating-label_outline .floating-label_label, 
@@ -178,11 +190,10 @@ textarea.floating-label:not(:placeholder-shown) ~ .floating-label_outline .float
 /*.floating-label:valid ~ .floating-label_outline .floating-label_label,*/
 .floating-label:focus ~ .floating-label_outline .floating-label_label,
 input:-webkit-autofill + .floating-label_outline .floating-label_label {
-  color: inherit;
-  transform: translateY(-17px) scale(0.75);
-  opacity: 1;
+	color: inherit;
+	transform: translateY(-17px) scale(0.75);
+	opacity: 1;
 }
-
 
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
@@ -193,80 +204,144 @@ textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-    background-color: #333 !important;
-    color: inherit;
-    transition: background-color 5000s ease-in-out 0s;
-    -webkit-text-fill-color: inherit !important;
-  /* background-color: rgba(0, 0, 0, 0) !important; */
+	background-color: #333 !important;
+	color: inherit;
+	transition: background-color 5000s ease-in-out 0s;
+	-webkit-text-fill-color: inherit !important;
+	/* background-color: rgba(0, 0, 0, 0) !important; */
 }
 
 @keyframes autofill {
-  to {
-    background: transparent;
-  }
+	to {
+		background: transparent;
+	}
 }
 
 input:-webkit-autofill {
-  -webkit-animation-name: autofill;
-  -webkit-animation-fill-mode: both;
+	-webkit-animation-name: autofill;
+	-webkit-animation-fill-mode: both;
 }
 
-floating-label [validation='true']~.floating-label_outline .floating-label_leading,
-floating-label [validation='true']~.floating-label_outline .floating-label_notch,
-floating-label [validation='true']~.floating-label_outline .floating-label_trailing,
-.floating-label_field [validation='true']~.floating-label_outline .floating-label_leading,
-.floating-label_field [validation='true']~.floating-label_outline .floating-label_notch,
-.floating-label_field [validation='true']~.floating-label_outline .floating-label_trailing,
-floating-label [unique='true']~.floating-label_outline .floating-label_leading,
-floating-label [unique='true']~.floating-label_outline .floating-label_notch,
-floating-label [unique='true']~.floating-label_outline .floating-label_trailing,
-.floating-label_field [unique='true']~.floating-label_outline .floating-label_leading,
-.floating-label_field [unique='true']~.floating-label_outline .floating-label_notch,
-.floating-label_field [unique='true']~.floating-label_outline .floating-label_trailing {
-    border-color: green
+floating-label
+	[validation="true"]
+	~ .floating-label_outline
+	.floating-label_leading,
+floating-label
+	[validation="true"]
+	~ .floating-label_outline
+	.floating-label_notch,
+floating-label
+	[validation="true"]
+	~ .floating-label_outline
+	.floating-label_trailing,
+.floating-label_field
+	[validation="true"]
+	~ .floating-label_outline
+	.floating-label_leading,
+.floating-label_field
+	[validation="true"]
+	~ .floating-label_outline
+	.floating-label_notch,
+.floating-label_field
+	[validation="true"]
+	~ .floating-label_outline
+	.floating-label_trailing,
+floating-label
+	[unique="true"]
+	~ .floating-label_outline
+	.floating-label_leading,
+floating-label [unique="true"] ~ .floating-label_outline .floating-label_notch,
+floating-label
+	[unique="true"]
+	~ .floating-label_outline
+	.floating-label_trailing,
+.floating-label_field
+	[unique="true"]
+	~ .floating-label_outline
+	.floating-label_leading,
+.floating-label_field
+	[unique="true"]
+	~ .floating-label_outline
+	.floating-label_notch,
+.floating-label_field
+	[unique="true"]
+	~ .floating-label_outline
+	.floating-label_trailing {
+	border-color: green;
 }
 
-floating-label [validation='false']~.floating-label_outline .floating-label_leading,
-floating-label [validation='false']~.floating-label_outline .floating-label_notch,
-floating-label [validation='false']~.floating-label_outline .floating-label_trailing,
-.floating-label_field [validation='false']~.floating-label_outline .floating-label_leading,
-.floating-label_field [validation='false']~.floating-label_outline .floating-label_notch,
-.floating-label_field [validation='false']~.floating-label_outline .floating-label_trailing,
-floating-label [unique='false']~.floating-label_outline .floating-label_leading,
-floating-label [unique='false']~.floating-label_outline .floating-label_notch,
-floating-label [unique='false']~.floating-label_outline .floating-label_trailing,
-.floating-label_field [unique='false']~.floating-label_outline .floating-label_leading,
-.floating-label_field [unique='false']~.floating-label_outline .floating-label_notch,
-.floating-label_field [unique='false']~.floating-label_outline .floating-label_trailing {
-    border-color: red
+floating-label
+	[validation="false"]
+	~ .floating-label_outline
+	.floating-label_leading,
+floating-label
+	[validation="false"]
+	~ .floating-label_outline
+	.floating-label_notch,
+floating-label
+	[validation="false"]
+	~ .floating-label_outline
+	.floating-label_trailing,
+.floating-label_field
+	[validation="false"]
+	~ .floating-label_outline
+	.floating-label_leading,
+.floating-label_field
+	[validation="false"]
+	~ .floating-label_outline
+	.floating-label_notch,
+.floating-label_field
+	[validation="false"]
+	~ .floating-label_outline
+	.floating-label_trailing,
+floating-label
+	[unique="false"]
+	~ .floating-label_outline
+	.floating-label_leading,
+floating-label [unique="false"] ~ .floating-label_outline .floating-label_notch,
+floating-label
+	[unique="false"]
+	~ .floating-label_outline
+	.floating-label_trailing,
+.floating-label_field
+	[unique="false"]
+	~ .floating-label_outline
+	.floating-label_leading,
+.floating-label_field
+	[unique="false"]
+	~ .floating-label_outline
+	.floating-label_notch,
+.floating-label_field
+	[unique="false"]
+	~ .floating-label_outline
+	.floating-label_trailing {
+	border-color: red;
 }
 
 @keyframes shake {
-  33.33% {
-    transform: translate3d(8px, -21px, 0) scale(0.75);
-  }
-  66.33% {
-    transform: translate3d(-2px, -21px, 0) scale(0.75);
-  }
-  100% {
-    transform: translate3d(0, -21px, 0) scale(0.75);
-  }
+	33.33% {
+		transform: translate3d(8px, -21px, 0) scale(0.75);
+	}
+	66.33% {
+		transform: translate3d(-2px, -21px, 0) scale(0.75);
+	}
+	100% {
+		transform: translate3d(0, -21px, 0) scale(0.75);
+	}
 }
 
 textarea.floating-label::-webkit-scrollbar {
-  width: 10px;
+	width: 10px;
 }
 
 textarea.floating-label::-webkit-scrollbar-track {
-  background: rgba(0, 0, 0, 0.04);
-  
+	background: rgba(0, 0, 0, 0.04);
 }
 
 textarea.floating-label::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.1);
+	background: rgba(0, 0, 0, 0.1);
 }
 
 textarea.floating-label.scroll::-webkit-scrollbar-thumb {
-  background: #f13b48;
-}  
-
+	background: #f13b48;
+}
