@@ -221,6 +221,10 @@ input:-webkit-autofill + .floating-label_outline .floating-label_label {
 		-webkit-text-fill-color: #fff;
 		color: #fff;
 	}
+	option {
+		background-color: #222;
+		color: #fff;
+	}
 }
 
 floating-label
