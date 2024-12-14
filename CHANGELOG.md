@@ -1,3 +1,16 @@
+# [1.15.0](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.14.0...v1.15.0) (2024-12-14)
+
+
+### Bug Fixes
+
+* add cursor pointer to type file ([1919a5d](https://github.com/CoCreate-app/CoCreate-floating-label/commit/1919a5db9f99715e9f41fcd8a8c9953deeb59acb))
+* autofill css ([8cbc0bc](https://github.com/CoCreate-app/CoCreate-floating-label/commit/8cbc0bcb5f627f2fc0a8e53dbf67fd3ec838cfdf))
+
+
+### Features
+
+* option tag supports dark mode ([034ad11](https://github.com/CoCreate-app/CoCreate-floating-label/commit/034ad1123d191a2fb81614f9bac8ce04c6f48e10))
+
 # [1.14.0](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.13.5...v1.14.0) (2024-11-04)
 
 
