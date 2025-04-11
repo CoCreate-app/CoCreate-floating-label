@@ -1,3 +1,17 @@
+# [1.16.0](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.15.0...v1.16.0) (2025-04-11)
+
+
+### Bug Fixes
+
+* formating ([a05ad42](https://github.com/CoCreate-app/CoCreate-floating-label/commit/a05ad4233f436b4e9896df033a87012106c9d501))
+* improved css ([ba20068](https://github.com/CoCreate-app/CoCreate-floating-label/commit/ba200681bbac3795eb05ec724e3d121e2e1c4b75))
+* update observer obseve param to type and and attributeName to attributeFilter ([511833a](https://github.com/CoCreate-app/CoCreate-floating-label/commit/511833ad5379886450f592400da64848cdcc4ae5))
+
+
+### Features
+
+* query for .floating-label if not found first element child is used ([f7193c1](https://github.com/CoCreate-app/CoCreate-floating-label/commit/f7193c1dc9bf3a705047e2b16e8610617b9cfc41))
+
 # [1.15.0](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.14.0...v1.15.0) (2024-12-14)
 
 
