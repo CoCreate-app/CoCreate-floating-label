@@ -1,3 +1,13 @@
+## [1.16.1](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.16.0...v1.16.1) (2025-04-30)
+
+
+### Bug Fixes
+
+* added css-loader ([2fc0363](https://github.com/CoCreate-app/CoCreate-floating-label/commit/2fc0363624fbc7256fd03b5c017a994dc7669b47))
+* update query attributes ([50a8570](https://github.com/CoCreate-app/CoCreate-floating-label/commit/50a8570892deacdfc4f15b5e048b0266531a0e92))
+* updated cocreate modules versions ([7eb4c5e](https://github.com/CoCreate-app/CoCreate-floating-label/commit/7eb4c5edffc5901382d9d8c64bf6ac5761d89959))
+* webpack.config and devdependencies ([ec80972](https://github.com/CoCreate-app/CoCreate-floating-label/commit/ec809721dab03089ec4f3bfc4e88aba23068f044))
+
 # [1.16.0](https://github.com/CoCreate-app/CoCreate-floating-label/compare/v1.15.0...v1.16.0) (2025-04-11)
 
 
